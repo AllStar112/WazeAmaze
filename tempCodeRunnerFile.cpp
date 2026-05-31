@@ -1,0 +1,1 @@
+g++ -std=c++17 -Wall -O2 -o MazeAmaze MazeAmaze.cpp

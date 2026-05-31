@@ -1,0 +1,113 @@
+# ============================================================
+#  MAZE GAME  -  Map File
+#  Format rules:
+#    >        = Level header  (e.g.  > LEVEL 1)
+#    ,        = Stage separator inside a level
+#    EndMap   = Closes a level block
+#    #        = Comment line  (ignored)
+#
+#  Cell symbols:
+#    X = Wall        (impassable)
+#    * = Open path   (walkable)
+#    . = Start point (spawn)
+#    ! = Finish      (goal)
+#    ? = Special     (reserved / future use)
+#
+#  Spacing between cells is flexible – only the symbols count.
+# ============================================================
+
+> LEVEL 1
+# --- Stage 1 : straight corridor ---
+X X X X X X
+X . * * * X
+X X X X * X
+X X X X * X
+X X X X ! X
+X X X X X X
+,
+# --- Stage 2 : zigzag ---
+X X X X X X
+X . X X X X
+X * X X X X
+X * * * X X
+X X X * X X
+X X X * ! X
+X X X X X X
+,
+# --- Stage 3 : branch + dead-end ---
+X X X X X X X
+X . * * X X X
+X X X * X X X
+X X X * * * X
+X X X X X * X
+X X X X X ! X
+X X X X X X X
+EndMap
+
+> LEVEL 2
+# --- Stage 1 : longer open maze 6x6 ---
+X X X X X X X X
+X . * X X X X X
+X X * * X X X X
+X X X * * X X X
+X X X X * * X X
+X X X X X * * X
+X X X X X X ! X
+X X X X X X X X
+,
+# --- Stage 2 : U-shape path ---
+X X X X X X X X
+X . * * * * X X
+X X X X X * X X
+X X X X X * X X
+X X * * * * X X
+X X * X X X X X
+X X * * * * ! X
+X X X X X X X X
+,
+# --- Stage 3 : spiral-ish ---
+X X X X X X X X X
+X . * * * * * X X
+X X X X X X * X X
+X X * * * * * X X
+X X * X X X X X X
+X X * * * X X X X
+X X X X * X X X X
+X X X X * * * ! X
+X X X X X X X X X
+EndMap
+
+> LEVEL 3
+# --- Stage 1 : tight squeeze ---
+X X X X X X X X
+X . X * X X X X
+X * X * X X X X
+X * * * * * X X
+X X X X X * X X
+X X X X X * * X
+X X X X X X ! X
+X X X X X X X X
+,
+# --- Stage 2 : multiple corridors ---
+X X X X X X X X X
+X . * X X X X X X
+X X * * * X X X X
+X X X X * X X X X
+X X X * * * * X X
+X X X * X X * X X
+X X X * * X * X X
+X X X X * * * ! X
+X X X X X X X X X
+,
+# --- Stage 3 : grand finale ---
+X X X X X X X X X X
+X . * * X X X X X X
+X X X * X X X X X X
+X X X * * * X X X X
+X X X X X * X X X X
+X X X X X * * * X X
+X X X X X X X * X X
+X X X X X X * * X X
+X X X X X X * X X X
+X X X X X X * * * !
+EndMap
