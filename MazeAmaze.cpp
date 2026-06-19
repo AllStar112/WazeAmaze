@@ -1356,6 +1356,12 @@ int main(int argc, char* argv[]) {   // agar program bisa terima argumen untuk d
 
         try { // Menggunakan exception handling untuk error pemilihan menu
             if (pilihan == "1") { // Jika memilih menu satu
+                platform::bersihLayar();   // Membersihkan layar
+                cout << JUDUL << KUNING << R"(
+    JIKA TAMPILAN RUSAK, ZOOM OUT TERMINAL, LALU TEKAN '/' LALU ENTER
+    )" << RESET ;
+                platform::bacaChar();
+                platform::bersihLayar();   // Membersihkan layar
                 mulaiPermainan(daftarLevel); // Maka memanggil fungsi mulai permainan
             } else if (pilihan == "2") { // jika memilih 2 
                 tampilkanLeaderboardLengkap(); // Maka akan menampilkan Leaderboard lengkap
