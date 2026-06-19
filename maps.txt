@@ -1,0 +1,1098 @@
+# ============================================================
+#  MAZE GAME - File Peta
+#  Format: > LEVEL N, koma (,) pisah map, EndMap tutup level
+#
+#  Simbol:
+#    X = Dinding
+#    * = Jalan kosong (tampil kosong di layar)
+#    . = Titik mulai
+#    ! = Titik selesai
+#    ? = Special field (tampil kosong, manual diatur, koordinat
+#        harus SAMA di semua map dalam level yang sama)
+# ============================================================
+
+> LEVEL 1
+# Map 1
+X X X X X X X X X X X 
+X * * * X . * * X * X 
+X * X X X X X * X * X 
+X * * * * * * * * * X 
+X * X * X X X X X X X 
+X * X * * * X * * ! X 
+X X X X X * X * X X X 
+X * * * X * X * * * X 
+X * X * X * X * X X X 
+X * X * * * * * * * X 
+X X X X X X X X X X X
+EndMap
+
+> LEVEL 2
+# Map 1
+X X X X X X X X X X X X X X X 
+X . * * X * * * * * * ? X * X 
+X X X * X * X X X X X * X * X 
+X * * * * * * * X * * * * * X 
+X * X X X X X X X X X * X * X 
+X * * * * * X * * * * * X * X 
+X X X ? X X X X X * X X X X X 
+X * * * X * * * X * * * X ! X 
+X * X * X * X * X X X * X * X 
+X * X * X * X * X * X * X * X 
+X X X * X * X X X * X ? X * X 
+X * X * * * * * * * X * * * X 
+X * X * X X X * X * X * X X X 
+X * * * * * X * X * * * * * X 
+X X X X X X X X X X X X X X X 
+,
+# Map 2
+X X X X X X X X X X X X X X X 
+X . X * * * * * * * * ? * * X 
+X * X X X * X * X * X X X X X 
+X * * * X * X * X * X * * * X 
+X * X * X * X X X * X X X * X 
+X * X * X * * * X * X * * * X 
+X X X ? X X X * X * X X X * X 
+X * * * X * * * X * * * * * X 
+X * X * X * X X X * X * X * X 
+X * X * * * X * X * X * X * X 
+X * X X X * X * X * X ? X * X 
+X * X * X * * * X * X * * * X 
+X * X * X X X X X * X * X X X 
+X * * * X * * * * * X * * ! X 
+X X X X X X X X X X X X X X X
+EndMap
+
+> LEVEL 3
+# Map 1
+X X X X X X X X X X X X X X X 
+X * * * X * * * X * * * * * X 
+X X X * X * X X X * X X X * X 
+X * * * * * * * * * * * X * X 
+X * X * X X X * X * X X X * X 
+X * X * X * * * X * ? * * * X 
+X X X X X * X X X * X * X X X 
+X * * * * * X * * * X * * * X 
+X * X X X ? X * X X X * X * X 
+X * X * X * X * X * X * X * X 
+X * X * X X X X X * X X X * X 
+X * X * * * * * X * * * X ! X 
+X * X * X * X * X * X * X X X 
+X * * * X * X * * * X * * . X 
+X X X X X X X X X X X X X X X
+,
+# Map 2
+X X X X X X X X X X X X X X X 
+X * * * X * X * * * * * * * X 
+X * X * X * X X X * X * X * X 
+X * X * X * X * * * X * X * X 
+X X X * X * X * X * X X X * X 
+X * * * * * * * X * ? * * * X 
+X X X * X X X X X * X * X X X 
+X * * * * * X * X * X * * * X 
+X * X X X ? X * X * X X X * X 
+X * * * X * X * * * X * * * X 
+X X X * X * X X X X X * X X X 
+X * * * * * * * * * X * * * X 
+X * X X X X X X X * X X X * X 
+X * * * * * X ! * * X * * . X 
+X X X X X X X X X X X X X X X
+,
+# Map 3
+X X X X X X X X X X X X X X X 
+X * * * * * * * X * * * * * X 
+X * X X X * X * X X X * X X X 
+X ! X * X * X * * * X * X * X 
+X X X * X * X X X X X * X * X 
+X * * * X * * * X * ? * * * X 
+X * X * X * X * X * X * X X X 
+X * X * * * X * * * X * * * X 
+X * X X X ? X X X X X * X * X 
+X * * * * * * * X * X * X * X 
+X X X X X * X X X * X * X X X 
+X * * * * * X * * * * * * * X 
+X * X X X X X X X X X * X * X 
+X * * * * * * * * * * * X . X 
+X X X X X X X X X X X X X X X
+EndMap
+
+> LEVEL 4
+# Map 1
+X X X X X X X X X X X X X X X X X X X X X 
+X . * * * * * * * * * * X * * * * * * * X 
+X ? X X X X X X X * X X X * X X X X X * X 
+X * * * * * * * X * X * * * X * * * X * X 
+X X X X X X X * X * X * X X X * X X X * X 
+X * X * * * X * * * * * * * * * * * X * X 
+X * X * X X X X X * X * X X X X X * X X X 
+X * * * * * * * X * X * * * X * * * X * X 
+X X X * X X X * X X X * X * X * X X X * X 
+X * * * X * * * * * X * X * * * * * X * X 
+X * X X X X X * X X X * X X X X X * X * X 
+X * X * * * * * X * X * X * * * X * X * X 
+X * X * X X X * X * X X X * X * X X X * X 
+X * X * X * * * * * * * X * X * * * X * X 
+X * X X X X X * X * X X X * X * X * X * X 
+X * * * X * X * X * * * * * X * X * * * X 
+X X X * X * X * X X X X X X X * X X X * X 
+X * * * * * X * * * ? * * * X * * * X * X 
+X X X X X * X * X * X X X * X * X X X * X 
+X ! * * * * X * X * X * * * * * * * * ? X 
+X X X X X X X X X X X X X X X X X X X X X
+,
+# Map 2
+X X X X X X X X X X X X X X X X X X X X X 
+X . * * * * X * * * X * * * X * X * * * X 
+X ? X * X X X * X X X * X * X * X * X * X 
+X * X * * * * * * * X * X * * * * * X * X 
+X * X X X X X X X * X X X X X X X * X X X 
+X * X * * * * * X * X * * * X * * * * * X 
+X * X * X * X X X * X * X * X * X X X * X 
+X * * * X * X * * * X * X * X * X * * * X 
+X X X * X * X X X * X * X * X * X X X X X 
+X * * * X * X * * * * * X * * * X * * * X 
+X * X * X X X X X X X X X X X * X * X X X 
+X * X * X * * * * * X * X * * * * * * * X 
+X X X X X * X X X * X * X X X * X X X X X 
+X * * * X * X * X * X * * * * * X * * * X 
+X * X X X * X * X * X X X X X * X * X * X 
+X * X * * * * * X * * * * * * * * * X * X 
+X * X * X X X X X X X * X X X X X * X * X 
+X * * * * * * * X * ? * * * X * * * X * X 
+X X X X X * X * X * X X X X X * X * X * X 
+X ! * * * * X * X * X * * * * * X * X ? X 
+X X X X X X X X X X X X X X X X X X X X X
+EndMap
+
+> LEVEL 5
+# Map 1
+X X X X X X X X X X X X X X X X X X X X X 
+X . * * * * * * * * X * X * * * * * X * X 
+X X X * X * X * X X X * X X X X X * X * X 
+X * * * X * X * X * * * X * * * * * X * X 
+X * X * X * X * X X X * X X X * X * X * X 
+X * X * X * X * * * ? * * * X * X * * * X 
+X X X * X X X * X * X * X * X X X * X X X 
+X * * * X * X * X * X * X * * * X * * * X 
+X X X * X * X * X * X X X X X X X * X X X 
+X * * * * * X * X * * * X * * * X * * * X 
+X X X * X * X * X X X X X * X * X * X X X 
+X * * * X * X * X * * * * * X * * * X * X 
+X X X * X * X * X * X X X * X * X X X * X 
+X * X * X * ? * * * * * X * X * * * X * X 
+X * X X X X X X X X X X X * X X X * X * X 
+X * * * * * * * * * * * X * * * X * * * X 
+X * X X X X X X X X X * X * X X X X X * X 
+X * * * X * * * X * * * * * * * X * * * X 
+X X X * X X X * X X X X X * X * X * X X X 
+X * * * * ! X * * * * * * * X * X * * * X 
+X X X X X X X X X X X X X X X X X X X X X
+,
+# Map 2
+X X X X X X X X X X X X X X X X X X X X X 
+X . * * * * X * * * * * X * * * * * X * X 
+X X X * X * X X X * X X X X X * X X X * X 
+X * * * X * * * * * X * * * * * * * X * X 
+X * X X X X X X X * X * X * X * X * X * X 
+X * * * * * * * X * ? * X * X * X * * * X 
+X * X X X X X X X X X X X X X * X X X X X 
+X * * * * * * * * * * * * * * * * * X * X 
+X * X * X X X X X X X X X * X X X * X * X 
+X * X * X * X * X * X * * * X * X * * * X 
+X X X * X * X * X * X * X * X * X X X X X 
+X * * * X * * * X * * * X * * * X * * * X 
+X * X X X * X X X * X X X * X X X * X X X 
+X * * * X * ? * * * * * X * * * * * * * X 
+X X X X X X X X X X X * X * X X X X X X X 
+X * * ! X * * * * * X * X * X * X * * * X 
+X * X X X * X * X * X X X * X * X * X * X 
+X * * * X * X * X * * * * * * * * * X * X 
+X * X * X * X X X X X * X * X X X X X * X 
+X * X * * * * * * * X * X * X * * * * * X 
+X X X X X X X X X X X X X X X X X X X X X
+,
+# Map 3
+X X X X X X X X X X X X X X X X X X X X X 
+X . * * * * * * * * * * X * X * * * * * X 
+X X X * X X X X X * X X X * X * X X X * X 
+X * X * X * * * X * * * * * X * X * * * X 
+X * X X X X X * X X X * X * X X X X X * X 
+X * X * * * * * * * ? * X * * * X * * * X 
+X * X X X X X X X X X X X * X X X * X X X 
+X * * * * * * * X * * * X * * * * * * * X 
+X * X * X * X X X * X * X * X * X X X X X 
+X * X * X * * * * * X * * * X * * * X * X 
+X * X X X X X * X X X * X X X * X * X * X 
+X * * * X * * * X * * * X * X * X * * * X 
+X * X X X X X X X X X * X * X * X X X X X 
+X * * * X * ? * X * * * X * X * * * * * X 
+X X X * X * X X X X X X X * X * X X X * X 
+X * * * * * * * X * X * * * X * X * X * X 
+X * X X X X X * X * X * X * X X X * X * X 
+X * * * * * X * X * * * X * * * * * * * X 
+X * X X X X X * X X X * X X X X X X X * X 
+X * X ! * * * * X * * * * * * * * * X * X 
+X X X X X X X X X X X X X X X X X X X X X
+EndMap
+
+> LEVEL 6
+# Map 1
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X . * * * * * * X * X * * * X * * * * * X * * * * * X * * * X 
+X X X X X X X * X * X * X * X X X X X * X X X X X * X * X * X 
+X * * * X * X * * * * * X * * * X * X * X * * * * * * * X * X 
+X X X * X * X X X * X X X X X * X * X * X * X X X X X * X X X 
+X ! X * * * X * * * X * * * * * * * * * X * * * X * * * * * X 
+X * X X X * X X X * X * X X X X X * X X X * X * X * X * X X X 
+X * X * * * X * * * X * * * X * X * * * X * X * X * X * * * X 
+X * X X X * X X X X X X X X X * X * X X X * X X X X X * X * X 
+X * X * X * * * * * * * X * * * X * * * X * X * * * X * X * X 
+X * X * X * X X X X X * X * X X X * X * X * X X X * X * X X X 
+X * * * X * * * * * X * X * * * ? * X * X * X * X * * * * * X 
+X X X * X X X * X X X X X * X X X X X * X * X * X * X X X * X 
+X * * * * * X * * * * * X * * * X * * * X * * * X * X * * * X 
+X X X * X X X * X X X * X X X * X X X * X X X * X X X X X * X 
+X * * * X * * * X * X * * * * * X * * * X * X * X * X * * * X 
+X * X X X X X X X * X X X X X * X * X * X * X * X * X * X X X 
+X * * * X * X * * * * * X * * * X * X * X * * * * * X * * * X 
+X X X * X * X * X X X X X X X * X * X * X * X X X * X X X * X 
+X * * * X * * * X * * * * * X * X * X * * * X * * * * * X * X 
+X * X * X * X X X ? X X X * X X X X X X X * X X X * X * X X X 
+X * X * X * * * X * * * * * X * X * * * X * X * * * X * * * X 
+X * X * X * X X X X X * X * X * X X X * X X X X X * X X X * X 
+X * X * * * X * * * X * X * * * * * * * * * X * * * X * X * X 
+X X X * X X X X X * X * X X X * X X X * X X X * X * X * X * X 
+X * * * X * * * * * * * X * X * X * * * * * X * X * * * X * X 
+X * X X X * X X X * X * X * X X X X X X X * X * X * X X X * X 
+X * * * X * * * X * X * * * * * X * * * * * X * X * X * X * X 
+X X X * X * X * X X X X X X X * X * X * X * X X X * X * X * X 
+X * * * * * X * * * X * * * * * X * X * X * * * * * * * X * X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X
+# Map 2
+,
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X . * * X * * * * * * * * * * * X * * * X * * * X * * * * * X 
+X X X * X X X * X X X X X * X * X X X * X X X * X * X X X X X 
+X * * * * * * * * * * * X * X * * * * * X * * * X * * * * * X 
+X X X X X * X X X * X X X X X X X X X * X X X * X * X X X X X 
+X * * * * * X * X * X * X * * * * * X * * * X * * * * * * * X 
+X * X X X * X * X X X * X X X X X * X * X X X * X * X X X * X 
+X * * * X * X * * * * * X * * * X * X * * * X * X * X * * * X 
+X X X * X X X X X * X X X * X X X * X X X * X X X X X X X * X 
+X * * * X * X * * * * * X * * * X * * * X * X * X * * * * * X 
+X * X * X * X X X * X X X X X * X * X X X * X * X * X X X * X 
+X * X * X * X * * * * * X * * * ? * * * * * * * * * X * * * X 
+X * X X X * X * X X X * X * X X X * X * X X X X X * X * X X X 
+X * X * * * X * X * X * * * * * X * X * X * X * * * X * * * X 
+X * X * X X X X X * X * X * X * X * X X X * X X X * X * X * X 
+X * * * X * * * * * * * X * X * * * X * X * * * * * X * X * X 
+X X X X X * X X X X X X X * X * X X X * X * X * X X X X X X X 
+X * X * X * * * X * * * X * X * X * X * X * X * X * * * X * X 
+X * X * X * X X X * X X X * X X X * X * X * X X X * X X X * X 
+X * * * X * X * * * X * * * * * * * * * X * X * * * X * X * X 
+X * X X X X X * X ? X X X * X X X * X X X X X * X X X * X * X 
+X * X * * * * * X * * * * * X * * * * * * * * * * * X * * * X 
+X * X X X X X X X * X X X X X * X X X X X X X X X * X X X * X 
+X * X * * * * * X * X * * * X * * * * * * * * * X * * * * * X 
+X * X X X * X X X * X * X X X * X X X * X X X * X * X X X * X 
+X * * * * * * * * * * * X * * * X * * * X ! X * X * X * * * X 
+X X X * X X X X X X X X X * X X X X X X X * X X X X X * X * X 
+X * * * * * X * * * X * * * * * X * * * X * * * * * X * X * X 
+X * X X X * X * X * X * X X X X X X X * X X X X X * X X X * X 
+X * X * * * X * X * * * * * * * * * * * * * X * * * * * * * X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X  
+EndMap
+
+> LEVEL 7
+# Map 1
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X . * * * * * * X * X * * * X * * * * * X * * * * * X * * * X 
+X X X X X X X * X * X * X * X X X X X * X X X X X * X * X * X 
+X * * * X * X * * * * * X * * * X * X * X * * * * * * * X * X 
+X X X * X * X X X * X X X X X * X * X * X * X X X X X * X X X 
+X ! X * * * X * * * X * * * ? * * * * * X * * * X * * * * * X 
+X * X X X * X X X * X * X X X X X * X X X * X * X * X * X X X 
+X * X * * * X ? * * X * * * X * X * * * X * X * X * X * * * X 
+X * X X X * X X X X X X X X X * X * X X X * X X X X X * X * X 
+X * X * X * * * * * * * X * * * X * * * X * X * * * X * X * X 
+X * X * X * X X X X X * X * X X X * X * X * X X X * X * X X X 
+X * * * X * * * * * X * X * * * * * X * X * X * X * * * * * X 
+X X X * X X X * X X X X X * X X X X X * X * X * X * X X X * X 
+X * * * * * X * * * * * X * * * X * * * X * * * X * X * * * X 
+X X X * X X X * X X X * X X X * X X X * X X X * X X X X X * X 
+X * * * X * * * X * X * * * * * X * * * X * X * X * X * * * X 
+X * X X X X X X X * X X X X X * X * X * X * X * X * X * X X X 
+X * * * X * X * * * * * X * * * X * X * X * * * * * X * * * X 
+X X X * X * X * X X X X X X X * X * X * X * X X X * X X X * X 
+X * * * X * * * X * * * * * X * X * X * * * X * * * * * X * X 
+X * X * X * X X X X X X X * X X X X X X X * X X X * X * X X X 
+X * X * X * * * X * * * * * X * X * * * X * X * * * X * * * X 
+X * X * X ? X X X X X * X * X * X X X * X X X X X * X X X * X 
+X * X * * * X * * * X * X * * * * * * * * * X * * * X * X * X 
+X X X * X X X X X * X * X X X * X X X * X X X * X * X * X * X 
+X * * * X * * * * * * * X * X * X * * * * * X * X * * * X * X 
+X * X X X * X X X * X * X * X X X X X X X * X * X * X X X * X 
+X * * * X * * * X * X * * * * * X * * * * * X * X * X * X * X 
+X X X * X * X * X X X X X X X * X * X * X * X X X * X * X * X 
+X * * * * * X * * * X * * * * * X * X * X * * * * * * * X * X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X
+,
+# Map 2
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X . * * * * * * * * X * * * * * X * X * X * * * * * * * * * X 
+X * X X X * X X X X X X X X X * X * X * X X X X X X X * X X X 
+X * X * * * X * X * * * * * * * * * * * * * * * * * * * * * X 
+X X X * X * X * X * X X X * X X X X X * X * X X X X X X X X X 
+X * * * X * * * X * * * X * ? * * * X * X * * * * * * * * * X 
+X X X * X * X X X X X * X * X X X X X * X X X X X X X * X X X 
+X * * * X * X ? * * X * X * X * X * * * * * X * * * X * X * X 
+X * X X X * X * X X X * X X X * X X X * X * X * X X X X X * X 
+X * X * X * * * * * * * X * * * X * X * X * * * * * * * * * X 
+X X X * X X X * X X X X X X X * X * X X X X X * X X X * X X X 
+X * * * * * * * * * X * * * * * * * X * * * * * * * X * * * X 
+X X X * X X X * X X X * X X X X X * X X X X X X X * X * X X X 
+X * * * X * X * * * X * X * * * * * * * * * * * X * X * X * X 
+X X X X X * X X X * X X X * X X X X X X X X X * X X X X X * X 
+X * * * X * * * * * X * * * X * X * X * X ! X * X * X * X * X 
+X X X * X X X * X * X * X * X * X * X * X * X X X * X * X * X 
+X * * * * * X * X * * * X * X * X * * * * * X * X * * * * * X 
+X * X X X X X X X * X X X X X * X * X X X X X * X * X X X * X 
+X * * * * * * * X * * * * * * * X * * * * * * * * * X * X * X 
+X * X X X X X X X * X X X X X X X X X X X X X * X * X * X X X 
+X * X * * * * * * * * * X * * * * * * * X * * * X * X * * * X 
+X * X * X ? X X X X X X X * X * X X X * X * X X X X X * X X X 
+X * X * X * * * * * * * * * X * X * X * * * X * * * X * * * X 
+X * X X X * X * X * X * X X X X X * X X X X X * X X X * X * X 
+X * * * * * X * X * X * X * X * X * * * * * * * X * * * X * X 
+X X X X X * X X X * X X X * X * X * X * X * X X X * X * X X X 
+X * * * * * * * X * * * * * * * X * X * X * X * X * X * * * X 
+X * X X X * X X X * X X X * X * X X X * X X X * X * X X X * X 
+X * X * * * * * X * X * * * X * * * * * * * * * * * X * * * X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X
+,
+# Map 3
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X . X * X * * * X * * * * * * * * * * * X * X * * * * * * * X 
+X * X * X * X X X * X * X * X X X * X X X * X X X X X X X * X 
+X * * * * * X * * * X * X * X * * * * * * * * * X * X * X * X 
+X * X X X * X X X * X X X * X * X X X * X * X X X * X * X * X 
+X * * * X * X * * * X * X * ? * X * X * X * * * X * * * X * X 
+X X X X X * X * X X X * X X X X X * X * X X X X X X X * X * X 
+X * * * X * * ? * * X * * * * * * * X * X * X * X * * * * * X 
+X * X X X * X * X X X * X X X X X * X X X * X * X * X * X X X 
+X * * * X * X * * * * * X * * * X * * * X * * * X * X * X * X 
+X * X X X * X X X X X * X * X X X X X X X * X * X X X * X * X 
+X * * * X * X * X * X * X * X * * * * * * * X * * * * * * * X 
+X * X * X * X * X * X X X * X * X X X X X X X X X X X * X X X 
+X * X * * * * * X * * * * * * * X * X * * * * * * * * * * * X 
+X * X X X * X * X X X * X X X * X * X X X * X X X X X * X * X 
+X * * * X * X * X * X * X * * * * * X * * * * * * * X * X * X 
+X * X * X * X X X * X X X * X * X X X X X * X X X * X * X X X 
+X * X * X * * * X * X * * * X * * * X * X * X * X * X * X * X 
+X * X * X X X X X * X * X X X * X X X * X X X * X X X * X * X 
+X * X * * * * * X * X * X * * * X * * * X * * * * * * * * * X 
+X X X * X * X * X * X * X * X * X * X X X X X * X X X X X * X 
+X * * * X * X * * * * * X * X * X * * * * * * * * * X * X * X 
+X * X X X ? X X X * X X X X X X X * X X X X X * X X X * X X X 
+X * X * * * * * X * X * X * * ! X * X * * * X * * * * * * * X 
+X * X * X * X * X X X * X * X X X * X X X * X X X * X * X * X 
+X * X * X * X * X * X * X * X * * * * * * * X * * * X * X * X 
+X * X * X X X * X * X * X * X X X X X X X * X X X X X * X X X 
+X * * * X * * * * * X * * * X * * * * * * * * * * * X * * * X 
+X X X * X X X * X X X * X * X * X X X * X X X * X X X * X X X 
+X * * * X * * * * * X * X * * * * * X * * * X * * * X * * * X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+EndMap
+
+> LEVEL 6
+# Map 1
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X * * * * * * * * * X * * * * * * * * * * * * * * * X * * * X * X * * * X * * * * * * * X * * * * ! X 
+X * X * X X X * X X X * X * X X X * X X X X X * X * X * X * X * X * X * X * X X X X X * X * X X X X X 
+X * X * X * X * X * * * X * * * X * X * * * * * X * * * X * * * * * X * X * * * X * * * X * * * * * X 
+X * X * X * X * X * X * X X X * X * X * X X X X X X X * X X X X X X X * X X X * X * X * X X X * X * X 
+X * X * * * X * * * X * X * X * X * X * X * * * * * X * * * * * * * X * X * * * X * X * * * X * X * X 
+X * X X X X X X X X X * X * X * X * X * X * X X X * X X X X X X X * X * X * X X X * X X X * X * X * X 
+X * * * * * X * * * X * X * X * X * X * X * * * X * X * * * * * * * X * * * X * * * * * X * X * X * X 
+X X X X X * X X X * X * X * X * X * X * X X X * X * X * X X X * X X X X X X X * X * X X X * X * X * X 
+X * * * * * X * * * X * * * X * X * X * * * X * X * X * * * X * X * * * * * X * X * X * * * X * X * X 
+X * X X X X X * X X X X X X X * X * X * X * X * X * X * X * X X X * X X X * X * X * X * X X X X X * X 
+X * X * * * * * X * * * * * * * X * X * X * X * X * * * X * X * * * X * * * X * X * X * X * X * * * X 
+X * X X X * X * X * X X X X X X X * X * X * X X X X X X X * X * X X X * X X X * X * X * X * X * X X X 
+X * * * X * X * X * * * * * X * * * X * X * * * X * * * * * X * * * X * * * * * X * X * X * X * * * X 
+X * X * X * X * X X X X X * X * X X X X X X X * X * X X X X X X X * X X X X X X X X X * X * X * X * X 
+X * X * * * X * X * * * * * X * * * * * X * X * X * * * * * * * X * X * * * X * * * * * X * X * X * X 
+X X X X X X X X X * X * X X X X X X X * X * X * X X X * X X X X X * X * X * X * X * X X X * X X X * X 
+X * * * X * * * X * X * * * X * * * X * X * * * X * X * * * * * X * * * X * X * X * X * * * X * * * X 
+X * X * X * X * X * X X X * X X X * X * X * X X X * X X X X X * X X X X X * X * X X X * X * X * X X X 
+X * X * * * X * X * * * X * * * X * X * X * * * X * * * X * X * X * * * * * X * X * * * X * X * * * X 
+X * X X X X X * X X X * X X X * X * X * X X X * X * X * X * X * X * X X X X X * X * X X X X X * X * X 
+X * * * * * X * * * * * X * * * X * X * * * X * X * X * * * * * X * * * * * X * X * * * * * X * X * X 
+X * X X X * X X X X X X X * X X X * X * X * X * X * X * X X X X X X X X X * X * X X X X X * X * X * X 
+X * X * X * * ? * * * * X * * * * * X * X * X * X * X * * * * * * * * * X * X * * * * * X * X * X * X 
+X * X * X * X X X X X * X X X X X X X * X * X * X * X X X X X X X X X X X * X X X X X * X * X * X * X 
+X * * * X * * * X * * * X * * * X ? X * X * X * X * * * X * * * * * X * * * X * * * X * * * X * X * X 
+X X X X X X X * X * X X X X X * X * X * X * X * X X X * X * X X X * X * X X X * X * X X X X X * X * X 
+X * * * * * * * X * * * * * * * X * * * X * X * X * X * * * X * * * X * * * X * X * X * * * * * X * X 
+X * X X X X X X X X X X X X X X X * X X X X X * X * X X X X X * X X X X X * X * X * X * X X X X X * X 
+X . X * * * * * * * * * * * * * * * X * * * * * X * * * * * * * * * * * X * * * X * * * X * * * * * X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+,
+# Map 2
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X * * * * * X * X * * * X * * * * * * * * * * * X * * * X * * * * * * * * * * * X * X * X * * * * * X 
+X * X * X X X * X * X X X X X X X * X X X * X X X * X X X * X X X * X * X * X X X * X * X X X X X * X 
+X * X * X * * * * * X * * * X * X * * * X * X * * * * * * * * * X * X * X * X * * * X * * * X * * * X 
+X * X * X X X X X * X * X X X * X X X X X * X * X * X X X X X X X * X * X X X X X * X * X X X * X X X 
+X * X * * * X * * * * * * * * * * * * * * * * * X * X * * * X * * * X * * * * * X * X * * * * * * * X 
+X X X * X * X * X X X X X X X * X X X X X X X X X * X * X X X X X X X * X X X X X * X * X X X X X X X 
+X * * * X * * * X * * * * * X * X * * * * * X * * * X ? * * * * * * X * X * * * X * X * X * * * * * X 
+X X X X X X X X X * X * X X X * X X X X X * X * X X X X X X X X X * X * X * X X X * X * X * X X X * X 
+X * * * * * X * X * X * * * * * * * * * * * X * X * * * X * * * * * X * * * * * * * X * X * X * * * X 
+X * X X X X X * X * X X X X X X X * X * X X X * X X X * X * X X X * X X X X X * X * X * X X X * X X X 
+X * * * * * * * * * X * X * * * * * X * * * X * * * * * * * X * * * X * X * * * X * X * * * * * X * X 
+X * X * X * X * X X X * X * X X X * X X X X X * X X X * X X X X X X X * X X X * X X X * X X X X X * X 
+X * X * X * X * * * X * * * * * X * X * * * X * X * * * * * * * X * * * * * * * * * * * X * * * * * X 
+X X X * X X X * X * X X X * X * X * X * X X X X X X X X X X X * X X X X X X X * X X X * X * X X X * X 
+X * * * X * * * X * X * * * X * X * X * * * * * * * * * * * * * * * * * X * * * X * * * X * X * * * X 
+X X X * X X X * X X X X X X X X X X X X X X X * X X X * X X X * X X X X X X X * X X X X X * X X X * X 
+X * * * X * X * * * X * * * X * X * * * * * * * X * X * * * X * * * * * * * X * * * * * X * X * X * X 
+X X X * X * X * X X X X X * X * X X X X X X X X X * X X X X X * X * X X X * X X X X X X X * X * X X X 
+X * * * X * * * * * * * X * * * * * * * X * * * * * X * * * X * X * X * * * * * * * X * X * X * * * X 
+X * X X X X X X X X X * X X X X X X X * X X X * X X X X X * X X X * X * X X X * X X X * X * X * X * X 
+X * * * * * * * X * * * X * X * X * * * X * * * * * * * X * * * * * X * X * X * * * X * X * * * X * X 
+X * X X X * X X X * X X X * X * X X X * X X X X X * X X X * X X X X X X X * X X X * X * X X X * X * X 
+X * X * * * * * X * X * X * * * * * * * * * * * * * * * * * * * X * X * * * * * X * * * X * X * X * X 
+X X X X X * X X X X X * X * X X X X X X X * X X X * X X X X X X X * X X X X X * X X X * X * X * X X X 
+X * * * * * X * * * * * X * * * * * X * * * X * X * X * * * X * * * X * * * * * X * * * * * * * * * X 
+X * X X X X X X X * X X X * X X X * X X X X X * X * X * X X X * X X X * X * X X X * X X X * X * X * X 
+X * X * X * * * X * * * X * X * X * X * * * * * * * X * * * * * * * * * X * * * * * X * * * X * X * X 
+X * X * X * X X X X X * X X X * X X X X X * X X X * X * X * X X X * X * X X X * X * X * X * X * X X X 
+X . * * * * * * * * * * * * * * * ? * * X * * * X * X * X * * * X * X * * * X * X * X * X * X * * ! X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+,
+# Map 3
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X * X * * * * * * * X * * * * * X * * * * * * * * * * * X * * * * * X * * * X * * * * * * * X * * * X 
+X * X X X * X X X * X * X * X X X * X * X X X X X * X X X * X * X * X * X X X X X X X X X * X * X * X 
+X * * * X * X * X * X * X * X * X * X * * * * * X * * * * * X * X * * * * * * * X * * * X * * * X * X 
+X * X X X * X * X * X X X * X * X * X X X X X X X X X X X X X X X X X X X * X * X * X X X X X * X X X 
+X * * * X * * * X * * * * * X * X * * ! X * * * * * * * * * * * * * * * X * X * * * X * * * * * X * X 
+X * X * X * X * X X X X X X X * X X X X X * X * X * X X X X X X X * X * X * X X X X X X X * X X X * X 
+X * X * * * X * * * X * * * X * * * * * X * X * X * * * * * X * * * X * X * * * * * * * X * * * X * X 
+X X X X X * X * X X X * X X X * X X X X X X X * X * X * X X X * X X X X X X X * X * X * X * X X X * X 
+X * * * X * X * X * X * X * * * X * * * * * * * X * X * X * * * * * X * X * X * X * X * * * * * X * X 
+X * X X X X X * X * X * X * X X X X X X X * X * X X X * X X X * X X X * X * X X X * X X X X X * X * X 
+X * * * * * * * * * * * X * * * * * X * * * X * X * * * X * * * X * * * * * X * * * * * X * X * X * X 
+X X X * X X X X X X X * X * X X X X X X X * X X X * X X X * X X X X X * X * X * X X X * X * X X X * X 
+X * * * X * * * X * * * X * * * * * * * * * X * * * * * X * * * * * * * X * X * * * X * * * * * * * X 
+X * X X X X X * X X X * X X X X X * X * X X X * X X X X X * X X X * X * X X X X X * X * X X X X X * X 
+X * X * * * * * X * * * X * * * X * X * X * X * X * * * X * X * X * X * * * X * * * X * * * X * X * X 
+X * X * X X X * X * X X X * X X X * X * X * X * X X X * X * X * X X X X X * X X X X X X X * X * X * X 
+X * * * X * * * X * * * X * * * * * X * X * X * * * * * X * X * * * * * X * * * X * * * * * X * X * X 
+X X X * X X X X X * X * X X X X X X X * X * X * X X X X X * X * X X X X X X X * X * X X X X X * X * X 
+X * * * X * * * X * X * * * X * * * * * X * * * * * X * * * X * * * * * X * X * X * * * X * * * * * X 
+X * X * X * X X X * X X X * X X X X X * X * X * X X X X X * X * X X X X X * X X X X X X X * X X X * X 
+X * X * X * X * * * * * X * X * X * X * X * X * X * * * * * * * * * * * X * * * * * X * * * * * X * X 
+X * X X X * X * X X X X X * X * X * X * X X X X X X X * X X X * X X X * X X X X X * X X X * X X X X X 
+X * X * * * * * X * * * X * X * * * X * X * X * * * * * * * X * X * X * X * * * * * * * X * * * * * X 
+X * X X X X X * X X X * X * X * X X X X X * X * X * X X X * X * X * X X X * X X X * X X X X X * X X X 
+X * X * * * X * X * * * X * X * * * X * * * * * X * X * * * X * * * * * * * * * X * * * X * * * * * X 
+X * X * X * X X X * X * X * X * X X X * X X X X X X X X X X X * X * X X X X X X X X X * X * X * X X X 
+X * * * X * X * * * X * * * * * * * * * * * * * * * * * X * * ? X * X * X * * * X * X * X * X * * * X 
+X X X * X * X X X * X X X X X * X X X * X X X X X * X X X X X * X * X * X * X X X * X * X * X X X * X 
+X . * * X * * * X * * * X * * * X * * * X * * * * * * * * * X * X * * * * * * * X * * * * * * * X * X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+EndMap
+
+> LEVEL 7
+# Map 1
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X * * * * * * * X * X * X * X * X * * * * * X * * * X * * * * * X * * * X * X * * * X * * * X * * * X 
+X * X * X X X X X * X * X * X * X X X * X X X * X * X X X X X * X * X * X * X * X * X * X * X X X * X 
+X * X * X * * * X * X * * * * * * * X * X * * * X * X * X * X * * * X * X * * * X * * * X ? * * X * X 
+X X X * X * X X X * X * X * X X X * X * X * X X X * X * X * X * X X X * X * X X X * X * X X X X X * X 
+X * * * * * * * * * * * X * * * X * X * * * X * * * X * * * X * X * * * X * * * X * X * X * * * X * X 
+X X X * X X X * X X X X X * X X X * X X X * X X X * X X X * X X X X X * X X X * X X X * X X X * X * X 
+X * * * * * X * X * * * X * X * * * * * * * X * * * * * * * * * * * * * * * * * * * X * X ? X * * * X 
+X X X * X X X * X * X X X * X X X X X * X X X X X * X X X * X X X X X X X X X X X X X X X * X * X * X 
+X * X * * * X ? * * X * * * X * X * * * * * * * X * X * * * X * X * X * X * * * X * * * X * * * X * X 
+X * X * X * X X X X X X X X X * X * X X X X X X X * X X X * X * X * X * X * X * X * X X X * X X X X X 
+X * * * X * X * * * * * * * X * * * X * * * * * * * X * * * * * X * X * * * X * X * * * * * X * * * X 
+X * X * X X X * X X X X X * X X X X X X X X X X X * X X X * X X X * X X X X X * X X X * X X X * X X X 
+X * X * X * X * X * X * * * * * * * X * * * X * * * X * * * * * * * X * * * * * X * X * X * * * * * X 
+X * X * X * X X X * X X X X X * X X X * X * X * X X X X X * X X X X X X X * X * X * X * X * X X X * X 
+X * X * X * X * * * * * X * * * X * * * X * * * X * X * X * * * * * * * * * X * * * * * X * * * X * X 
+X * X X X * X X X X X * X X X * X X X X X X X X X * X * X X X * X X X X X X X * X X X X X X X * X * X 
+X * * * * * X * * * * * * * X * X * X * * * X * X * * * * * * * X * X * * * * * * * * * * * * * X * X 
+X X X X X * X * X X X * X X X * X * X * X X X * X * X X X X X X X * X X X * X X X * X X X * X X X * X 
+X * * * * * X * X * X * * * X * * * X * X * * * * * * * X * * * * * X * * * X * X ? * * X * X * X * X 
+X X X * X X X * X * X * X X X X X * X * X * X * X X X X X X X * X X X X X X X * X * X * X X X * X * X 
+X * X ! X * * * * * X * X * X * X * * * X * X * * * X * * * * * X * * * * * * * X * X * * * * * X * X 
+X * X X X X X * X X X X X * X * X X X * X X X X X * X * X X X X X * X X X * X * X X X * X X X X X * X 
+X * * * * * * * X * * * X * X * * * * * * * X * X * * * X * * * * * X * * * X * * * * * * * X * X * X 
+X * X * X X X * X X X * X * X X X X X X X * X * X * X X X * X X X X X X X X X * X X X * X * X * X * X 
+X * X * X * * * * * * * X * X * * * * * * * X * * * X * * * * * * * * * X * * * * * X * X * X * * * X 
+X * X X X X X * X X X * X * X X X X X * X * X X X * X X X X X X X * X X X X X X X * X * X * X * X * X 
+X * * * * * X * * * X * * * * * * * X * X * * * * * * * * * * * X * * * X * X * * * X * X * X * X * X 
+X * X X X X X * X X X * X X X X X * X * X * X * X X X * X X X X X X X * X * X X X * X X X X X * X X X 
+X * X * * * * * * * X * * * * * X * * * X * X * X * * * X * * * * * * * * ? X * * * * * X * * * * . X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+,
+# Map 2
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X * * * X * * * * * * * X * * * * * * * * * * * * * * * X * * * * * X * * * * * * * * * * * X * * * X 
+X * X X X * X * X * X X X * X * X X X X X X X X X X X * X * X * X * X X X X X * X * X * X * X * X * X 
+X * * * * * X * X * * * * * X * * * X * * * * * X * * * X * X * X * * * X * * * X * X * X * X * X * X 
+X * X X X X X * X X X X X X X X X * X * X X X X X * X X X * X * X X X * X * X X X * X * X * X X X * X 
+X * * * * * X * * * X * * * * * X * * * X * * * X * * * * * X * * * X * * * X * * * X * X * X * * * X 
+X X X X X * X X X * X X X * X * X X X * X * X * X X X X X X X X X * X X X X X * X * X * X * X * X X X 
+X ? X * * * X * * * * * * * X * * * X * X * X * * * * * * * * * * * X * * * * * X * X * X * * * X * X 
+X * X * X X X * X X X X X X X X X * X * X * X X X X X X X X X X X X X * X * X X X * X * X X X X X * X 
+X * X * X * * * X * * * * * * * X * X * X * * * X * * * * * * * X * * * X * * * X * X * * * * * * * X 
+X * X * X X X X X * X * X X X * X X X * X * X * X * X X X X X * X * X X X X X X X * X X X X X X X X X 
+X * * * X * * * * * X * * * X * * * * * X * X * X * * * X * * * X * X * * * * * * * X * * * * * * * X 
+X X X X X * X X X X X X X * X X X X X X X * X * X X X X X * X X X * X * X X X X X X X * X X X X X * X 
+X * * * * * * * * * X * * * X * * * * * X * X * X * * * X * X ? * * X * * * * * * * X * X * * ? * * X 
+X * X * X X X X X * X * X X X * X X X * X * X * X * X * X * X * X X X X X X X * X X X * X * X X X X X 
+X * X * * * * * X * X * * * X * * * X * * * X * * * X * * * X * * * X * * * X * X * * * X * X * * * X 
+X * X X X X X X X * X X X * X * X * X X X X X X X X X X X X X * X * X * X * X * X * X X X * X * X * X 
+X * X * * * * * X * X * * * X * X * * * * * * * * * X * * * * * X * * * X * X * X * X * * * X * X * X 
+X * X * X X X * X * X * X X X X X X X * X X X X X * X * X X X X X X X X X * X * X * X * X X X * X * X 
+X * * * X * X * X * X * X * * * * * X * X * * * * * X * * * * * * * * * X * X * * * X * * * X * X * X 
+X * X X X * X * X X X * X * X X X * X X X * X X X X X X X X X X X X X * X * X X X X X X X * X X X * X 
+X * X * X * X * * * X * X * X ! X * * * X * X * * * * * * * X * * * X * X * * * X * * * X * * * * * X 
+X * X * X * X X X * X * X * X * X X X * X * X * X X X X X * X X X * X * X X X * X * X * X X X X X X X 
+X * X * X * * * * * X * X * * * X * * * X * * * * * * * X * X * * * X * * * X * X * X * * * * * * * X 
+X * X * X X X X X X X * X X X X X * X X X X X X X X X * X * X * X X X X X * X X X * X X X X X X X * X 
+X * X * * * * * X * X * X * * * X * X * * * * * X * * * X * X * * * * * X * * * X * * * * * * * X * X 
+X * X X X * X * X * X * X * X * X * X X X * X X X * X X X * X X X X X * X X X * X * X * X X X X X * X 
+X * * * * * X * * * X * * * X * * * X * * * X * * * X * * * * * X * X * * * * * X * X * X * X * * * X 
+X * X X X X X X X X X X X X X X X X X * X X X * X X X * X X X * X * X X X X X X X * X * X * X * X X X 
+X * * * * * * * * * * * * * * * * * X * * * * * X * * * X * * * * * * * * * * * * * X * * * X * * . X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+,
+# Map 3
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X ! X * * * X * X * X * * * * * * * X * * * * * X * * * * * * * X * X * * * * * * * X * * * X * * * X 
+X * X X X * X * X * X * X X X * X * X X X * X X X X X X X X X * X * X * X * X X X * X X X * X * X X X 
+X * * * * * X * X * * * X * * * X * * * X * X * * * X * * * * * * * * * X * X * X * * * * * X * X * X 
+X * X * X X X * X X X X X X X X X * X X X * X X X * X * X X X * X X X * X X X * X * X X X * X * X * X 
+X * X * * * * * * * * * * * X * X * * * * * X * * * X * X * * * X * X * * * X * * * X * * * X * * * X 
+X * X X X * X * X X X * X X X * X X X * X X X X X * X X X X X * X * X X X * X X X X X X X * X * X X X 
+X * * * X * X * X * * * * * * * * * * * * * X * X * X * * ? X * * * X * * * * * * * X * * * * * * * X 
+X X X * X * X X X X X * X * X * X * X * X X X * X * X * X * X X X X X X X * X * X X X X X * X X X X X 
+X * * * X * * * * * X * X * X * X * X * X * * * X * * * X * * * * * * * X * X * * * * * X * * * * * X 
+X X X * X * X X X X X X X X X * X * X * X * X * X * X X X X X X X X X X X X X X X * X X X X X * X * X 
+X * X * X * * * * * * * * * X * X * X * * * X * X * * * * * * * * * * * * * X * * * X * * * * * X * X 
+X * X * X X X X X X X X X * X X X * X * X X X X X X X X X * X * X * X X X X X * X X X * X * X X X X X 
+X * * * * * * * X * * * * * * * X * X * X * * * * * * * * * X * X * * * * * * * * * X * X * X * X * X 
+X * X X X * X * X X X X X * X X X * X * X X X * X X X X X * X X X * X X X X X X X * X X X * X * X * X 
+X * X * * * X * * * X * * * X * X * X * X * * * * * * * X * X * * * X * * * X * * * X * * * * * * * X 
+X * X * X * X X X * X * X X X * X X X X X X X * X X X * X X X * X * X X X * X X X X X * X * X X X X X 
+X * X * X * * * X * X * * * * * X * X * * * * * * * X * X * * * X * * * * * X * X * * * X * * * * * X 
+X X X X X * X * X X X * X X X X X * X X X * X X X * X X X * X * X X X X X X X * X * X X X * X X X * X 
+X * * * X * X * X * * * * * * * * * * * * * * ? X * X * * * X * * * * * * * X * * * X * * * X * * * X 
+X X X * X X X X X * X X X X X * X X X X X * X * X X X X X X X X X X X * X X X * X X X X X X X X X X X 
+X * * * * * * * * * * * * * X * X * * * X * X * X * * * * * * * X * * * X * X * * * * * * * * * * * X 
+X X X * X X X X X * X * X X X X X * X * X * X X X * X X X * X X X * X * X * X X X X X * X X X * X * X 
+X * * * * * X * * * X * X * * * X * X * X * X * X * X * * * * * * * X * X * X * * * * * * * X * X * X 
+X * X * X * X X X X X X X X X * X X X * X * X * X X X X X X X * X X X X X * X X X X X X X * X * X * X 
+X * X * X * X * * * * * * * * * * * * * X * X * * * X * X * X * X * * * * * * * * * X * * * X * X * X 
+X X X * X * X * X X X * X * X X X X X * X * X * X * X * X * X X X X X * X X X X X X X * X X X X X * X 
+X * * * X * X * * * X * X * * * * * X * * * * * X * * * X * * * X * * * * * X * * * X * * * X * * * X 
+X * X X X * X X X X X X X X X * X * X * X X X X X X X X X X X * X X X * X * X * X * X * X * X X X X X 
+X * * * X * * * X * * * * * * * X * X * * * * * * * * * * * * * * * X * X * * * X * * * X * * * * . X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+,
+# Map 4
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X ! * * * * * * * * * * * * * * * * * * X * * * * * * * * * X * * * * * X ? * * X * * * * * * * * * X 
+X * X X X * X * X X X X X * X X X X X * X * X * X X X X X * X * X * X * X * X X X * X * X X X X X * X 
+X * X * * * X * * * X * * * * * * * X * * * X * * * * * X * * * X * X * * * X * * * X * X * * ? X * X 
+X X X * X X X X X * X * X X X X X * X X X X X X X X X X X X X X X * X X X * X * X X X * X * X X X * X 
+X * * * X * * * * * X * X * * * X * * * * * X * * * * * * * * * * * X * * * * * X * * * X * * * X * X 
+X * X X X X X * X X X * X * X * X * X X X * X * X X X X X X X X X X X * X X X X X * X X X * X * X * X 
+X * * * X * * * * * X * * ? X * X * X * * * X * X * * * * * * * * * X * X * * * X * * * * * X * X * X 
+X X X * X * X X X X X X X * X * X * X * X X X * X * X * X * X X X X X * X * X X X X X X X X X * X * X 
+X * X * X * * * * * * * X * X * X * X * * * X * * * X * X * X * * * X * * * * * * * * * * * X * X * X 
+X * X * X X X X X X X X X * X * X * X X X * X X X X X * X * X * X * X X X X X X X X X X X * X * X * X 
+X * * * * * X * X * * * * * X * X * X * * * X * * * * * X * * * X * * * X * * * * * * * * * X * X * X 
+X * X X X * X * X * X X X X X X X * X * X * X X X X X X X X X X X X X * X X X X X X X X X X X * X X X 
+X * * * X * * * X * * * * * * * X * X * X * X * * * X * * * * * X * X * * * * * * * * * * * X * * * X 
+X X X * X * X X X X X X X X X * X * X * X X X * X * X * X X X * X * X X X X X X X X X X X * X X X * X 
+X * * * X * * * * * * * X * * * X * X * * * * * X * X * * * X * X * * * * * * * X * * * * * X * X * X 
+X * X X X X X X X X X X X * X X X * X X X * X X X * X * X * X * X X X X X * X X X * X X X X X * X * X 
+X * * * X * * * X * * * * * X ? X * * * X * * * X * X * X * X * * * * * * * X * * * X * * * * * X * X 
+X X X * X * X * X * X X X X X * X X X * X X X X X * X * X * X X X X X X X X X * X X X * X X X X X * X 
+X * * * * * X * X * * * * * X * * * * * X * * * * * X * X * X * * * X * * * X * * * * * X * * * * * X 
+X * X X X X X * X * X X X X X X X X X X X * X X X X X * X * X * X * X * X X X X X X X X X * X * X X X 
+X * * * * * X * X * X * * * * * * * * * X * * * X * X * X * * * X * * * * * * * X * * * X * X * * * X 
+X * X X X X X * X * X * X * X X X X X * X X X * X * X * X X X * X X X X X X X * X * X X X * X * X X X 
+X * X * * * X * X * X * X * * * * * X * * * X * X * * * X * * * * * * * * * X * X * * * X * X * * * X 
+X * X * X * X X X * X * X X X X X * X X X * X * X * X X X X X X X * X X X * X * X X X * X * X X X * X 
+X * X * X * * * * * X * X * * * X * * * X * X * X * X * X * * * * * X * * * X * * * X * * * X * * * X 
+X * X * X X X X X X X X X * X * X X X X X * X * X * X * X * X X X X X * X X X X X * X X X X X * X X X 
+X * X * * * * * * * * * * * X * X * * * X * * * X * * * X * * * * * X * * * * ? X * * * * * X * * * X 
+X * X X X X X X X X X X X X X * X * X * X X X X X X X X X X X X X * X X X X X * X X X X X * X X X * X 
+X * * * * * * * * * * * * * X * * * X * * * * * * * * * * * * * * * * * * * X * * * * * X * * * X . X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+EndMap
+
+> LEVEL 8
+# Map 1
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X * * * X * * * * * * * * * * * X * * * X * * * * * * * * * * . X * * * X * * * * * * * X * * * * * * * * * X * * * * * X 
+X * X X X * X X X * X X X X X X X * X * X * X X X * X * X X X X X * X X X * X X X * X * X * X * X X X X X * X * X X X * X 
+X * * * X * * * X * X * * * X * * * X * * * * * X * X * * * * * X * * * * * X * * * X * * * X * * * * * X * X * * * X * X 
+X * X * X X X * X * X * X * X * X X X * X X X * X * X X X X X * X * X * X X X * X * X * X X X X X X X * X * X X X * X * X 
+X * X * * * X * X * X * X * * * X * * * * * X * X * X * * * X * * * X * * * X * X * X * * * * * X * * * X * * * * * X * X 
+X * X X X * X * X * X * X * X X X * X X X X X * X * X * X * X * X X X X X X X * X * X X X X X * X * X X X X X X X X X * X 
+X * * * X * * * X * * * X * * * X * X * * * X * X * * * X * X * X * * * * * * * X * * * X * * * X * * * * * * * * * X * X 
+X * X * X * X X X X X X X X X X X * X * X * X X X X X X X * X * X * X * X * X X X X X * X * X X X X X X X X X X X * X X X 
+X * X * X * X * X * * * * * * * X * * * X * * * * * X * * * X * X * X * X * * * * * X * X * * * X * * * * * * * X * * * X 
+X * X * X * X * X * X X X X X * X X X X X X X X X X X * X X X * X X X * X * X X X * X * X X X * X * X X X X X * X X X * X 
+X * X * X * X * X * X * * * X * X * * * * * * * * * X * X * * * X * * * X * X * * * X * X * * ? X * * * * * X * X * * * X 
+X X X * X * X * X * X X X * X * X * X * X X X X X * X * X * X X X * X * X * X * X X X * X * X * X * X X X X X * X * X X X 
+X * * * X * * * X * * * * * X * * * X * X * * * X * * ? X * X * * * X * X * X * X * * * X * X * * * * * X * * * X * * * X 
+X * X X X X X X X X X X X X X X X X X * X * X * X X X X X * X * X X X X X * X X X * X X X * X X X X X X X * X X X X X * X 
+X * * * * * * * X * * * * * * * X * * * X * X * * * * * X * X * * * * * X * X * * * X * * * * * X * X * * * X * X * * * X 
+X * X X X X X * X X X X X X X * X * X X X * X X X X X * X * X X X X X * X X X * X X X X X X X * X * X * X X X * X * X X X 
+X * * * X * * * X * * * * * X * X * * * * * X * * * * * X * * * * * X * * * X * * * * * * * X * X * X * * ? X * X * * * X 
+X X X * X * X * X * X X X * X * X * X X X X X * X X X X X X X X X X X X X * X X X X X X X * X * X * X X X * X * X * X X X 
+X * X * X * X * X * * * X * * * X * * * * * X * * * * * X * * * * * * * X * * * * * X * * * X * * * X * * * X * X * * * X 
+X * X * X * X * X X X * X X X X X X X X X X X X X X X X X * X * X X X * X * X * X * X * X X X X X X X * X X X * X X X * X 
+X * X * X * X * * * * * * * * * * * X * X * * * * * X * * * X * X * * * X * X * X * X * X * * * * * X * * * * * X * * * X 
+X * X * X X X * X X X X X X X X X * X * X * X * X X X * X X X * X * X X X * X * X * X * X X X X X * X X X X X X X * X X X 
+X * X * * * X * X * * * * * * * X * X * X * X * X * * * X * * * X * * * X * X * X * X * * * * * X * * * * * * * X * X * X 
+X * X X X * X * X * X X X X X * X * X * X * X * X * X X X X X X X X X * X X X * X * X X X * X * X X X X X * X * X * X * X 
+X * X * * * X * X * X * * * * * X * * * X * X * * * X * * * * * * * * * X * * * X * * * X * X * * * * * X * X * X * * * X 
+X * X * X X X * X X X * X X X X X X X X X * X X X X X X X * X X X X X X X * X * X X X * X * X X X X X * X * X * X X X X X 
+X * X * * * X * X * * * * * X * * * * * X * X * * * * * X * X * * * * * * * X * * * X * X * * * * * X * X * X * X * * * X 
+X * X X X * X * X * X X X * X * X X X * X * X X X X X * X * X X X * X X X X X X X X X * X X X X X * X * X * X * X X X * X 
+X ! * * * * X * * * X ? * * * * X * * * X * * * * * * * X * * * * * X * * * * * * * * * X * * * * * X * * * X * * * * * X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+,
+# Map 2
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X * * * * * X * X * X * * * X * * * * * X * X * * * X * * * X . X * X * * * X * X * X * X * X * X * * * * * X * * * * * X 
+X X X X X * X * X * X * X * X * X * X X X * X * X X X * X X X * X * X * X X X * X * X * X * X * X * X * X X X X X * X * X 
+X * * * * * * * X * * * X ? * * X * * * * * * * * * X * * * * * X * X * * * X * * * * * * * X * * * X * X * * * * * X * X 
+X * X * X X X * X * X X X X X X X X X X X * X X X * X * X X X X X * X * X * X X X * X X X X X * X * X * X * X X X X X * X 
+X * X * * * X * * * * * * * X * * * * * * * X * * * * * X * X * * * X * X * * * X * * * X * * * X * X * * * X * * * * * X 
+X * X * X X X X X X X X X X X X X * X X X X X X X X X * X * X * X X X * X X X X X X X * X * X X X * X X X X X X X X X * X 
+X * X * X * * * * * * * X * X * * * * * X * * * * * * * X * * * * * * * X * * * * * X * * * * * X * X * * * * * * * X * X 
+X * X X X * X X X X X * X * X X X X X X X * X X X * X X X * X X X X X X X * X * X * X * X X X X X * X X X X X X X * X * X 
+X * X * X * * * X * * * X * * * * * X * X * X * * * * * * * * * * * X * X * X * X * X * X * * * * * * * * * * * * * X ! X 
+X * X * X * X X X * X * X * X * X X X * X * X * X * X * X X X X X * X * X * X X X * X X X * X X X X X X X X X * X * X X X 
+X * * * X * X * * * X * X * X * X * * * * * X * X * X * * * * * X * X * * * * * X * * * X * * * * * * * X * * * X * * * X 
+X * X X X X X * X X X * X * X X X * X X X X X X X X X * X X X * X * X X X X X X X X X * X X X X X X X X X * X X X * X * X 
+X * * * X * * * X * * * X * X * * * * * X * X * * * * * X * X * X * X * * * * * * * * * * * * * X * * * X * * * X * X * X 
+X * X X X * X X X * X X X * X X X X X X X * X X X * X X X * X X X X X X X * X X X X X X X X X * X * X X X * X X X * X X X 
+X * * * * * X * * * X * * * * * X * * * * * X * * * X * * * * * X * * * X * * * * * X * X * * * X * X * X * X * * * * ? X 
+X * X * X X X * X X X X X X X * X * X X X X X * X X X * X X X * X * X * X * X X X * X * X * X * X * X * X * X X X X X X X 
+X * X * X * X * * * * * * * X * * * * * X * X * X * * * X * * ? * * X * X * X * * * X * * * X * * * X * * * * * X * * * X 
+X X X X X * X X X * X X X * X X X * X * X * X * X X X * X * X X X X X * X * X X X X X X X X X * X * X * X X X * X X X * X 
+X * * * * * * * X * X * * * * * X * X * * * * * X * X * X * X * * * X * * * * * X * X * * * * * X * X * * * X * * * X * X 
+X X X X X * X X X * X * X X X * X X X X X * X X X * X * X * X * X * X X X * X X X * X X X * X X X * X * X X X * X * X * X 
+X * * * * * * * * * X * X * X * * * * * X * * * X * X * X * X * X * * * X * * * X * X * * * X * X * X * * * X * X * * * X 
+X * X X X X X X X X X X X * X X X X X X X * X * X * X X X * X X X X X * X X X * X * X X X * X * X * X X X * X X X X X * X 
+X * * * * * X * * * * * X * X * * * * * * * X * * * * * X * * * X * * * X * * * X * * * * * * * X * * * * * X * * * * * X 
+X X X X X * X * X X X X X * X * X X X X X X X X X X X * X * X X X * X X X X X * X X X X X X X * X X X * X X X * X * X X X 
+X * * * * * * * X * * * X * * * X * * * X * * * * * * * X * X * * * X * * * * * * * X * * * X * X * X * * * X * X * X * X 
+X * X X X * X * X * X X X X X * X * X X X X X X X X X * X X X * X X X X X * X X X * X * X X X X X * X * X X X X X X X * X 
+X * * * X * X * * * * * * * X * X * * * * * * * X * * * * * * * * * X * * * * * X * * * X * * * * * * * * * * * X * X * X 
+X X X * X * X * X X X X X X X * X * X X X * X * X X X X X X X * X X X * X * X * X * X * X * X * X X X X X X X X X * X * X 
+X * * * X * X * * * * * X * * * * * * * X * X ? * * X * * * * * * * * * X * X * X * X * X * X * * * * * * * * * * * * * X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+,
+# Map 3
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X * * * X * * * * * X * * * * * X * * * * * * * * * * * * * X . * * * * * * * * * * * * * * * * * * X * * * * * * * * * X 
+X * X * X * X X X * X * X X X * X * X X X * X * X X X * X * X * X * X X X X X X X * X X X X X X X * X * X X X X X X X * X 
+X * X * X * * * X * * * X * * * * * X * * * X * * * X * X * * * X * X * * * X * * * X * * * * * X * * * X * * * * * X * X 
+X * X X X X X * X X X * X X X X X X X * X * X X X * X * X X X X X X X * X * X * X X X * X X X X X X X X X * X * X * X * X 
+X * X * * * * * * * X * X * * * X * * * X * * * X * X * X * * * * * X * X * * * X * X * * * * * X ! X * * * X * X * * * X 
+X * X * X X X X X * X * X * X * X X X X X X X * X * X * X * X X X * X * X X X X X * X * X X X * X * X * X X X * X X X * X 
+X * X * X * * * * * X * X * X * X * * * * * * * X * X * X * X * X * X * X * * * X * * * X * X * X * X * * * X * * * X * X 
+X * X * X * X X X X X * X * X * X * X X X X X X X * X * X * X * X * X * X * X * X * X * X * X * X * X X X * X X X * X X X 
+X * X * X * * * X * * * X ? X * X * * * X * * * * * X * * * X * * * X * * * X * * * X * X * X * X * * * X * X * * * * * X 
+X * X * X X X * X X X X X * X * X X X * X * X X X X X X X X X X X X X X X X X X X X X * X * X * X * X X X * X * X X X * X 
+X * X * * * X * * * X * * * X * X * * * X * * * X * * * * * * * * * X * * * * * X * * * X * * * X * * * X * X * * * X * X 
+X * X X X * X X X * X * X X X * X * X X X * X * X * X * X * X X X X X * X X X * X X X X X X X X X X X * X * X X X X X * X 
+X * * * X * * * X * X * * * X * * * X * * * X * * * X * X * X * * * X * * * X * * * * * * * * * X * * * X * X * * * X * X 
+X X X * X X X * X * X * X * X X X X X * X * X X X X X * X * X * X * X X X * X X X X X X X * X X X * X X X * X * X * X * X 
+X * * * X * * * X * X * X * X * * * * * X * * * X * * * X * * * X * * * X * * * * * * * X * * * X * * * X * * * X * X * X 
+X * X X X * X X X * X X X * X * X X X X X X X * X * X X X X X X X * X * X * X X X * X * X X X * X X X * X X X X X * X * X 
+X * X * * * X * * * * * X * X * X * * * X * * * X * X * * * * * * * X * X * X * X * X * X * * * X * * * X * * * * * X * X 
+X * X * X X X X X X X * X * X X X * X * X * X * X * X * X X X X X * X X X * X * X * X * X * X X X * X X X * X X X X X * X 
+X * * * X * * * * * X * X * X * * * X * * * X * X * X * * * * * X * X * * * X * * * X * X * X * * * X * X * * * * * X * X 
+X X X X X * X * X X X * X * X * X X X X X X X * X * X X X X X * X * X * X X X * X X X * X * X * X * X * X X X X X * X * X 
+X * * * X * X * * * * * X * X * * * X * X * * * X * X * * * * * X * X * * * X * X * * * X * * * X * X * * * X * * * X * X 
+X * X * X X X X X X X X X * X X X * X * X * X X X * X X X X X X X * X X X * X * X X X X X X X X X X X * X X X * X X X * X 
+X * X * * * * * * * * * * * X * X ? X * * * X * * * * * X * X * * * * * X * X * * * * * * * * * * * * * X * * * X * * * X 
+X * X * X X X X X X X X X X X * X * X X X X X X X X X * X * X * X X X X X * X X X X X X X X X X X X X X X * X X X * X X X 
+X * X * X * * * * * * * X * * * * * X * * * * * X * * * X * * * X * * * X * X * * * * * * * X * * * * * * * X * * * * * X 
+X * X X X * X * X X X * X * X X X X X * X X X * X X X X X X X X X * X * X * X * X * X X X * X * X X X X X X X X X X X * X 
+X * * * X * X * * * X * X * * * * * X * * * X * * * * * * * X * * * X * * * X * X * * * X * X * X * * * X * * * X * * * X 
+X * X * X * X X X * X * X X X X X * X X X * X X X X X X X * X * X X X X X X X X X X X * X * X * X * X * X * X * X * X * X 
+X * X * * * X * * * X * * * * * X * * * * * X * * * * * * * X * * * * * * * * * * * * * X * * * X * X * * * X * * * X * X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+,
+# Map 4
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X * * * * * X * X * * * X * X * * * * * * * X * * * * * * * X . * * X * * * X * * * * * * * X * X * X * * * * * X * * * X 
+X * X * X * X * X X X * X * X * X X X X X * X X X * X * X X X X X * X * X * X * X X X * X * X * X * X X X * X * X X X * X 
+X * X ? X * X * * * * * * * * * X * * * * * * * * * X * * * X * * * * * X * * * * * X * X * * * X * * * X * X * * * * * X 
+X * X * X X X X X X X * X X X X X * X X X * X * X X X X X * X * X X X X X X X * X * X * X X X X X * X X X * X * X * X * X 
+X * X * * * * * * * * * X * * * * * X * * * X * * * * * X * * * * * X * * * X * X * X * X * * * * * * * * * X * X * X * X 
+X * X X X X X X X X X X X X X X X * X X X X X * X X X X X X X X X * X * X * X * X X X * X * X * X X X X X X X * X X X X X 
+X * * * * * X * * * * * * * * * X * X * X * * * * * X * * * * * * * * * X * X * * * X * X * X * * * * * X * * * * * * * X 
+X X X * X X X * X X X X X X X * X * X * X X X X X X X X X X X * X X X X X * X X X * X X X * X X X * X X X * X * X * X * X 
+X * * * * * * * * * * * X * X * X * X * X * * * X * * * * * X * X * * * X * X * * * X * * * * * X * X * X ? X * X * X * X 
+X * X * X X X * X X X X X * X X X X X * X * X X X X X * X X X * X * X X X X X X X X X X X * X X X X X * X * X X X X X X X 
+X * X * X * * * * * * * * * X * X * X * X * * * * * * * * * * * X * * * X * * * * * X * X * * * X * X * X * * * * * * * X 
+X * X X X * X * X X X * X X X * X * X * X X X * X * X X X X X * X * X X X X X * X X X * X * X * X * X * X X X * X X X * X 
+X * * * X * X * X * X * * * X * * * X * * * * * X * X * * * * * * * * * * ? X * X * * * * * X * * * X * * * X * X * X * X 
+X * X X X * X * X * X X X * X X X * X X X * X * X X X X X * X X X X X * X X X * X * X X X X X X X X X * X * X X X * X X X 
+X * X * X * X * X * * * * * X * * * * * * * X * * * * * X * * * * * X * X * * * * * * * X * * * * * * * X * * * * * * * X 
+X * X * X X X X X * X X X * X * X X X * X * X X X X X X X * X X X X X * X X X X X * X * X X X X X X X * X * X * X * X X X 
+X * X * * * X * * * X * X * X * X * X * X * X * * * X * * * X * * * * * X * * * * * X * * * * * X * X * X * X * X * * * X 
+X * X X X * X * X * X * X * X X X * X X X X X * X * X * X X X * X * X * X * X X X * X * X X X X X * X * X X X X X X X X X 
+X * * * X * X * X * X * * * X * X * * * X * X * X * X * X * X * X * X * * * X * * * X * X * * * X * * * X * X * * * * * X 
+X * X X X * X X X X X X X * X * X X X * X * X * X X X * X * X X X X X X X X X X X * X X X * X X X * X X X * X X X X X * X 
+X * * * X * * * * * * * * * * * * * * * * * * * * * X * X * * * * * * * X * X * * * X * X * * * X * * * * * X * * * * * X 
+X * X X X X X * X * X * X X X X X * X X X X X X X X X * X * X * X X X X X * X * X X X * X * X * X X X X X * X X X X X * X 
+X * X * * * * * X * X * * * X * * * * * X * X * * * X * X * X * * * * * X * X * * * * * * * X ? * * X * * * X * X * * * X 
+X * X X X X X * X * X X X X X * X * X * X * X * X X X X X X X * X * X * X * X X X X X X X * X X X X X * X * X * X * X * X 
+X * X * * * * * X * X * X * X * X * X * * * X * * * X * * * X * X * X * X * X * X * * * X * * * X * * * X * X * * * X * X 
+X * X X X X X X X X X * X * X * X * X X X X X * X X X * X * X X X * X * X * X * X * X * X * X * X X X * X X X X X * X * X 
+X * X * * * * * * * * * * * * * X * * * * * * * * * X * X * * * * * X * X * * * * * X * X * X * * * * * * * * * * * X * X 
+X * X X X X X X X X X * X * X * X X X X X X X * X X X * X * X * X X X X X X X * X X X X X * X * X X X X X X X * X * X * X 
+X * X * * * * * * * * * X * X * * * * * X * * * X * * * X * X * * * * * * * * * * * * * * * X * * * * * X * * * X * X ! X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+EndMap
+
+> LEVEL 9
+# Map 1
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X * * * * * X * X * * * X * * * X * X * * * * * * * * * * * X * X * * * * * * * X * * * * * X * * * X * * * * * * * * * X 
+X * X X X X X * X * X * X * X * X * X X X * X * X X X X X * X * X X X * X * X X X X X X X * X * X * X * X * X * X * X X X 
+X * * * X * * * * * X * X * X * X * X * * * X * * * X * * * * * X * * * X * X * * * * * * * * * X * X * X * X * X * * * X 
+X * X X X * X * X * X * X * X X X * X X X * X X X X X X X X X * X * X X X * X * X X X X X * X X X * X * X X X * X * X * X 
+X * * * * * X * X * X * * * X * X * * * * * * * X * * * * * * * X * * * X * * * X * * * X * * * X * X * * * X * X * X * X 
+X X X X X X X * X X X * X X X * X * X * X X X * X X X X X X X X X X X X X * X X X X X * X * X * X X X * X X X X X X X * X 
+X * * * * * X * X * * * * * * * * * X * * * X * * * * * X * * * * * X * * * * * X * * * X * X * X * * * * * X * X * X * X 
+X X X * X * X X X * X * X X X X X X X * X X X X X X X * X * X * X X X * X * X * X * X * X X X X X X X * X X X * X * X X X 
+X * * * X * * * X * X * * * * * * * X * X * * * * * X * * * X * * * * * X * X * X * X * * * * * * * * * X * * * X * X * X 
+X * X * X X X * X * X * X X X X X * X X X * X * X X X X X X X * X X X * X X X X X * X X X X X X X X X * X * X * X * X * X 
+X * X * * * X * X * X * X * * * * * * * X * X * X * * * * * X * X * * * X * * * X * * * * * * * * * X * * * X * * * * * X 
+X X X X X * X * X * X X X * X X X * X X X X X * X * X * X X X * X X X * X X X * X X X X X * X X X X X X X * X X X X X * X 
+X * * * X ! X * X * X * * * X * * * * * X * X * * * X * X * X * X * X * * * X * * * * * X * * * * * X * X * * * * * X * X 
+X X X * X X X * X X X X X X X X X * X X X * X * X * X X X * X * X * X X X X X X X * X X X X X X X X X * X X X X X X X * X 
+X * * * * * * * X * * * X * * * * * * * X * * * X * X * * * X * * * * * * * * * * * X * * * * * X * X * X * * * * * * * X 
+X * X * X X X * X X X * X * X * X X X X X X X X X * X X X * X * X X X X X X X * X X X X X * X X X * X * X * X X X X X * X 
+X * X * * * X * * * X * X * X * * * X * * * X * X * X * * * X * * * X * X * X * * * * * * * * * X * * * * * X * * * * * X 
+X * X * X * X X X X X * X * X X X X X X X * X * X * X * X * X * X * X * X * X * X X X * X * X X X X X X X * X X X X X * X 
+X * X * X * * * X * * * * * X * * * * * * * X * X * * * X * * * X * * * X * * * X * * * X * * * X * * * X * X * X * X * X 
+X * X * X X X * X X X * X * X X X X X * X X X * X * X X X X X X X X X * X X X * X X X * X * X * X * X X X * X * X * X * X 
+X ? X * X * * * X * * * X * * * X * X * * * X * X * * * X * * * X * X * X * X * X * X * X * X * X * * * X * X * * * * * X 
+X * X * X X X X X X X * X * X * X * X X X * X * X * X X X * X X X * X X X * X X X * X X X X X * X * X X X * X X X X X X X 
+X * X * X * X * X * * * X * X * * * X * * * X * X * X * * * X * * * * * X * * * X * X * * * * * * * * * X * * * X * * * X 
+X * X * X * X * X X X X X * X * X X X * X X X * X X X X X * X * X X X X X * X * X * X * X X X * X X X * X * X * X X X * X 
+X * X * * * X * * * * * X * X * X * X * * * X * * * X * X * * * * * * * * * X * X * X * X * X * X * * * * * X * * * X * X 
+X X X X X * X * X X X * X * X X X * X * X X X * X X X * X X X * X X X * X X X X X * X X X * X * X * X X X X X * X * X * X 
+X * X * X * * * X * * * X * * * X * * * * * X * * * X * X * * * * * X * * * * * * * X * * * * * X * X * X * X * X * * * X 
+X * X * X * X X X * X X X X X * X * X X X X X * X X X * X X X X X X X * X X X X X * X * X * X X X X X * X * X X X X X * X 
+X * X * * * * * X * * * * * X * * * * * X * * * * * X * * * X * X * X * X * X * * * * * X * * * * * * * * * X * X * * * X 
+X * X X X * X X X X X * X X X * X X X X X * X * X X X X X * X * X * X * X * X * X * X X X * X X X * X X X X X * X X X * X 
+X * X * X * * * * * X * * * X * * * * * * * X * * * * * X * X * X * * * * * X * X * * * X * X * X * * * X * * * * * * * X 
+X * X * X * X X X * X X X * X X X * X * X X X * X X X X X * X * X * X X X X X X X * X X X X X * X * X * X * X X X X X * X 
+X * * * * * X * * * * * X * * * * * X * * * X * * * X * * * * * * * X * * * * * * * * * X * * * * * X * X * * * X * X * X 
+X X X * X * X X X X X X X X X * X X X * X * X X X X X X X X X X X * X * X X X * X * X X X * X * X X X X X * X X X * X X X 
+X * * * X * X * * * * * * ? X * X * * * X * X * * * * * * * X * * * X * X * X * X * * * X * X * X * X * * * * * X * * * X 
+X * X X X * X * X X X * X X X * X * X X X X X X X X X X X * X X X * X X X * X X X * X * X X X * X * X * X X X X X X X * X 
+X * * * X * X * X * X * * * X * X * * * * * * * * * X * * * X * * * X * * * * * * * X * X * X * X * * * * * * * X * * * X 
+X * X X X X X * X * X X X X X * X * X * X * X X X X X * X X X * X X X * X * X X X * X X X * X * X * X X X X X * X * X * X 
+X * * * * * * * X * * * * * * * X * X * X * * * * ? * ? * * X . * * X * X * * * X * * * * * X * X * * * * * X * * * X * X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+,
+# Map 2
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X * X * * * * * * * X * * * * * * * * * * * X * * * * * * * * * * * * * X * * * * * X * * * * * * * * * * * X * * * X * X 
+X * X * X * X X X * X * X X X X X * X * X X X * X * X X X X X X X X X X X * X X X * X * X * X X X X X X X * X * X * X * X 
+X ? * * X * * * X * * * * * X * * * X * * * * * X * * * * * * * X * * * * * X * * * X * X * * * * ? * * X * * * X * * * X 
+X * X X X X X * X * X X X * X * X X X * X X X * X X X X X X X * X * X X X X X * X X X * X X X X X X X * X X X X X X X X X 
+X * X * * * X * X * X * * * X * * * X * * * X * X * * * * * X * * * * * * * X * * * * * X * * * * * * * X * * * * * * * X 
+X * X * X X X * X * X X X X X X X * X X X * X * X * X X X X X X X X X X X * X X X X X X X * X * X X X X X * X X X X X X X 
+X * X * X * * * X * * * X * * * * * * * X * X * * * * * * * X * * * * * X * * * * * * * X * X * * * * * X * * * * * * * X 
+X * X * X * X * X * X * X X X X X X X X X * X X X * X X X * X X X X X * X * X X X X X * X * X X X X X X X * X X X X X * X 
+X * * * X * X * X * X * * * * * * * * * X * * * X * * * X * * * * * * * X * X * * * * * X * * * * * X * * * X * * * X * X 
+X X X X X * X X X * X X X X X X X * X * X X X * X X X * X X X X X X X X X * X X X * X X X X X X X * X * X X X * X X X * X 
+X * * * X * * * X * * * * * * * X * X * X * * * X * * * X * * * * * X * X * * * X * X * * * * * X * * * * * X * * * * * X 
+X * X * X X X * X * X X X X X * X X X * X * X X X X X X X * X X X * X * X X X * X * X * X X X * X X X X X * X * X X X X X 
+X * X * * * X * X * * * * * X * * * X * X * X * * * * * * * X * * * X * * * * * X * * * X * X * * * X * * * X * * * * * X 
+X * X X X X X * X X X X X * X X X * X * X X X * X X X X X X X * X * X X X * X X X X X X X * X X X * X X X X X X X X X * X 
+X * X * * * * * X * * * X * * * X * X * * * * * * * X * * * * * X * * * X * * * * * X * * * * * X * * * * * * * * * X * X 
+X * X * X X X X X * X * X X X * X * X X X X X X X * X * X X X X X X X * X * X X X X X * X * X X X X X * X * X * X X X * X 
+X * * * X * * * X * X * * * * * X * * * X * * * * * X * * * X * * * * * X * * * X * * * X * X * * * X * X * X * X ? * * X 
+X * X X X X X * X * X X X X X X X * X * X X X * X X X X X X X * X X X X X X X * X * X X X X X * X * X X X * X X X * X X X 
+X * X * X * * * X * X * * * * * * * X * * * X * * * X * * * * * X * * * * * X * X * * * * * * * X * * * * * X * * * * * X 
+X * X * X * X X X * X X X * X X X X X X X * X X X * X * X X X X X X X X X * X * X X X X X X X X X X X X X X X * X X X * X 
+X * * * X * * * * * X * * * X * * * * * X * * * X * X * X * * * * * * * X * X * * * * * * * * * * * * * * * X * X * * * X 
+X * X X X X X * X X X * X X X * X X X X X X X * X * X * X * X X X * X X X * X X X X X X X X X X X * X X X * X * X X X X X 
+X * X * * * X * X * X * * * X * * * * * X * * * X * X * * * * * X * * * X * * * * * * * * * * * * * X * * * X * * * * * X 
+X * X * X * X * X * X X X * X X X X X * X * X X X * X X X X X * X X X * X * X X X X X X X X X X X X X X X * X X X * X * X 
+X * X * X * X * * * X * * * X * * * X * X * X * * * * * * * X * X * * * X * * * X * * * * * * * * * * * X * X * * * X * X 
+X * X X X * X X X X X * X * X * X X X * X * X X X X X X X * X * X X X * X X X X X * X X X X X X X X X * X * X * X X X * X 
+X * X * * * X * * * * * X * X * * * * * X * X * * * X * * * X * X * * * X * * * * * X * * * * * * * * * X * X * X * * * X 
+X * X * X X X * X X X X X * X * X X X X X * X * X * X X X * X X X * X X X * X X X X X * X * X X X X X X X * X * X X X X X 
+X * X * * * X * * * * * X * * * * * X * X * X * X * * * X * X * * * * * X * X * * * * * X * X * X * * * X * X * * * * * X 
+X * X * X * X X X X X * X X X X X * X * X * X * X * X * X * X * X X X X X * X X X X X X X * X * X * X X X * X X X X X * X 
+X * * * X * * * X * * * * * * * X * * * X * * * X * X * X * X * X * * * * * X * * * * * X * * * X * X * * * X * * * X * X 
+X X X X X * X * X * X X X * X X X X X * X * X X X * X * X X X * X * X X X X X * X * X * X X X * X * X * X X X * X * X * X 
+X * * * X * X * X * * * X * X * * * X * X * X * * * X * * * X * * * * * X * * * X * X * X * * * X * * * X * * * X * X * X 
+X * X X X * X X X X X * X * X * X * X * X * X * X X X X X * X X X X X * X * X X X X X * X * X X X X X * X * X X X X X * X 
+X * * * * * X * * * * * X * X * X * X * X * X * X * * * X * * * * * X * X * * * X * * * X * * * * * X * X * X * * * X * X 
+X X X X X X X * X X X X X X X * X * X * X * X * X * X * X X X * X X X * X X X * X * X X X X X X X * X X X * X * X * X * X 
+X * * * X * * * * * * * X * * * X * X * X * X * * * X * X * * * X * * * X * X * X * * * * * * * X * * * X ? X * X * * * X 
+X * X * X * X X X X X * X * X X X * X * X * X X X X X * X X X X X * X X X * X * X X X X X X X * X X X * X * X * X * X X X 
+X * X * * * X * * * * * X * * * X * * * X * * * * * X * * * * . X * * * * * X * * * * * * ! X * * * * * X * * * X * * * X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+
+,
+# Map 3
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X * * * * * * * * * X * * * * * * * X * * * * * * * * * X * X * * * * * X * * * X * * * * * * * * * * * * * X * * * * * X 
+X X X * X * X X X * X X X * X X X * X X X * X * X * X X X * X * X X X * X * X * X X X * X * X X X * X X X * X * X X X X X 
+X * * * X * * * X ? X * X * X * * * * * X * X * X * * * * * * * * * X * X * X * * * * * X * X * * * * * X * X * X * * * X 
+X X X * X * X X X X X * X * X X X X X * X * X X X X X X X X X X X * X X X X X * X X X X X * X X X * X X X X X * X * X X X 
+X * X * X * * * X * * * X * * * X * * * * * X * X * X * * * X * * * * * * * X * X * * * * * X * * * X * * * X * * * X * X 
+X * X * X X X X X * X * X * X X X * X X X X X * X * X * X X X * X X X * X X X * X X X X X X X X X * X X X * X * X X X * X 
+X * * * X * * * * * X * * * * * X * X * * * * * * * * * X * X * X * X * * * * * * * * * * * * * X * * * * * * * X * * * X 
+X X X * X X X * X * X X X * X * X X X * X * X * X X X * X * X X X * X X X X X X X * X * X X X * X X X X X X X * X * X * X 
+X * X * X * X * X * X * X * X * X * * * X * X * * * X * * * * * * * X * X * X * * * X * * * X * * ? X * X * * * X * X * X 
+X * X * X * X * X X X * X * X X X X X X X X X * X * X X X * X * X X X * X * X X X X X X X X X * X X X * X * X X X X X * X 
+X * X * * * * * X * X * X * X * * * * * * * X * X * * * X * X * X * * * * * * * * * X * X * * * X * * * X * X * X * X * X 
+X * X * X X X X X * X * X * X * X * X X X X X * X X X * X * X * X X X X X X X * X * X * X X X X X * X * X * X * X * X * X 
+X * * * X * * * * * * * * * X * X * * * X * * * X * * * X * X * * * * * X * * * X * X * * * X * X * X * X * * * X * * * X 
+X X X * X * X X X * X X X * X * X * X * X * X * X * X X X * X X X * X X X X X * X * X X X * X * X * X X X * X X X * X * X 
+X * * * X * X * X * * * X * * * X * X * X * X * X * X * * * * * X * * * * * X * X * * * * * * * * * X * * * X * * * X * X 
+X * X X X * X * X * X X X X X X X * X X X * X X X X X * X X X X X X X * X * X X X X X * X X X * X X X X X * X X X X X * X 
+X * X * * * * * X * X * * * * * * * X * * * X * * * X * X * * * * * * * X * * * * * X * X * * * * * X * * * * * * * * * X 
+X X X X X X X X X X X X X X X X X * X X X X X X X * X * X X X X X * X X X X X * X X X X X * X X X X X X X X X * X X X * X 
+X * * * * * X * * * * * X * X * X * X * X * * * * * X * X * * * * * X * * * X * X * * * X * X * * * X * * * * * * * X * X 
+X X X * X X X * X * X X X * X * X * X * X * X X X * X X X * X X X * X * X X X * X * X X X * X X X * X * X * X X X X X * X 
+X * * * * * * * X * X * X * * * X * X * X * * * X * * * X * * * X * * * X * X * X * * * * * * * X * * * X * * * * * X * X 
+X * X X X * X X X * X * X * X * X * X * X * X * X X X X X X X X X X X * X * X X X X X * X * X X X * X X X * X * X * X X X 
+X * X * * * X * * * * * X * X * * * X * * * X * * * * * * * X * * * * * * * * * X * * * X * * * * * X * X * X * X * X * X 
+X * X X X X X X X * X X X * X X X X X * X X X * X X X * X X X X X * X X X X X X X X X * X X X * X * X * X * X X X * X * X 
+X * X * * * * * * * * * X * * * * * X * * * X * * * X * * * * * X * * * X * X * * * * * X * * * X * X * * * X * * * X * X 
+X X X X X X X X X X X * X X X * X * X X X * X X X * X * X X X * X X X * X * X * X X X * X X X X X * X X X X X X X X X * X 
+X * * * * * X * * * X * * * X * X * X * * * * * X * X * * * X * * * * * X * X * X * * * * * * * X * X * * * X * X * * * X 
+X X X X X * X X X * X X X * X * X X X X X X X X X * X X X * X * X * X X X * X * X * X X X X X X X * X X X * X * X * X X X 
+X * * * * * X * * * X * * * * * X * X * * * * * * * X * X * X * X * * * X * X * X * X * * * * * X * X * * * * * X * X * X 
+X * X * X X X X X * X X X * X X X * X X X * X X X X X * X X X * X * X X X * X * X * X X X * X X X * X X X * X X X * X * X 
+X * X * * * X * * * * * * * * * * * * * X * * * * * X * * * * * X * * * * * X * X * X * X * * * * * * * * * X * * * * * X 
+X * X * X * X * X X X X X X X X X * X X X * X * X X X * X X X * X X X X X * X * X X X * X X X X X X X * X * X * X X X X X 
+X * X * X * X * X ? * ? * * X * * * * * X * X * X * * * * * X * * * * * X * X * * * X * * * X * X * X * X * * * X * * * X 
+X X X * X X X * X X X * X * X * X X X X X * X * X X X X X X X * X X X X X X X * X * X * X X X * X * X X X X X X X * X X X 
+X * * * * * * * X * X * X * X * * * * * X * X * * * * * X * * * * * * * X * * * X * X * * * * * * * * * X * * * X * X * X 
+X * X * X X X * X * X * X X X X X * X X X * X X X * X X X X X X X X X * X X X X X * X * X X X * X X X * X * X * X * X * X 
+X * X * X * * * X * X * * * * * * * X * X * * * X * X * * * * * * * X * * * * * * * * * * * X * X * X * * * X * * * * * X 
+X X X X X * X * X * X X X X X * X * X * X X X X X X X * X * X X X X X * X * X * X * X * X X X X X * X X X X X * X * X X X 
+X * * * * * X * * * X * * * * * X * * * X * * * * * * * X ? * . * * * * X * X * X * X * * * X * * * * * * * * * X * * ! X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+,
+# Map 4
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X ! * * * * * * X * X * * * * * X * * * * * * * * * * * * * X * * * * * X * * * * * * * * * X * * * * * * * * * * * X * X 
+X * X * X X X * X * X * X * X * X * X X X X X * X X X X X * X X X * X * X * X * X X X * X * X * X X X * X X X * X * X * X 
+X * X * * * X * * * X * X * X * * * X * * * X * * * * * X * * * * * X * X * X * X * * * X * * * X * * * X * * * X * X * X 
+X * X X X * X X X X X * X * X X X X X X X * X X X X X * X * X X X X X * X * X * X * X X X X X X X * X X X X X X X * X * X 
+X * X * * * * * * * * * X * * * * * * * * * X * X * * * X * X * * * X * * * X * X * * * X * * * * * X * * * * * X * X * X 
+X * X * X X X X X X X X X X X X X X X X X X X * X * X X X * X * X * X * X X X * X X X * X * X * X X X X X * X * X * X * X 
+X * X * * * * * * * X * * * * * X * * * * * * * X * * * X * * * X * X * X * * * X * * * X * X * * * X * * ? X * X * * * X 
+X * X X X X X X X * X * X X X * X * X * X X X X X * X * X X X X X * X * X * X X X * X X X * X X X * X * X X X * X X X * X 
+X * * * * * * * X * X * * * X * X * X * * * X * * * X * X * * * X * X * X * X * X * X * * * * * X * * * * * X * * * X * X 
+X * X * X X X X X * X X X * X * X X X * X * X * X X X * X * X * X * X X X * X * X * X * X X X X X X X X X X X X X * X * X 
+X * X * * * * * X * X * * * X * * * * * X * X * X * X * X * X * X * X * * * X * * * X * X * * * X * * * * * * * X * X * X 
+X * X X X X X * X * X * X X X X X X X X X * X * X * X * X * X * X * X * X X X X X X X * X X X * X * X X X X X * X * X * X 
+X * X * * * X * X * * * X * * * * * X * * * X * X * X * * * X * X * X * * * X * * * X * * * X * X * X * * * X * X * X * X 
+X * X * X * X * X X X X X * X X X * X X X X X * X * X X X X X * X * X X X * X * X * X X X * X * X * X * X X X * X * X * X 
+X * * * X * X * X * * * * * X ? * * * * X * * * X * * * * * X * X * X * * * * * X * * * X * * * X * * * X * * * X * X * X 
+X * X X X * X * X X X * X X X X X X X * X * X X X X X X X * X * X * X X X X X * X X X * X X X X X X X X X * X X X * X * X 
+X * X * X * X * X * * * X * * * * * X * * * X * * * * * X * * * X * * * X * * * * * X * X * X * * * * * X * X * X * X * X 
+X * X * X * X * X * X X X * X * X X X X X X X * X X X * X X X X X X X * X * X X X * X * X * X * X X X * X * X * X * X * X 
+X * X * * * X * X * * * * * X * * * X * * * X * * * X * * * X * * * X * X * * * X * X * * * X * * * X * X * X * * * X * X 
+X * X * X X X X X X X X X X X X X * X * X * X * X X X * X * X * X * X X X X X * X * X X X * X X X X X * X * X * X * X * X 
+X * X * X * * * * * X * * * * * X * X * X * * * X * * * X * X * X * * * * * * * X * * * X * * * * * * * X * * * X * X * X 
+X * X * X X X * X * X X X X X * X * X * X X X X X * X X X * X * X X X X X X X X X X X * X X X X X X X X X X X X X * X * X 
+X * X * * ? * * X * * * X * * * X * X * * * * * X * * * X * X * * * X * * * X * * * * * * * * * X * * * X * * * * * X * X 
+X * X X X X X X X X X * X * X X X * X * X * X X X * X * X X X X X * X * X * X * X X X X X X X * X * X * X X X X X X X * X 
+X * * * X * * * * * X * * * X * * * X * X * X * * * X * X * * * X * * * X * X * * * X * * * X * X * X * * * X * * * * * X 
+X * X * X * X X X * X X X X X * X X X * X * X * X X X * X * X * X X X X X * X X X * X * X * X X X * X X X * X * X * X * X 
+X * X * X * X * * * * * * * X * * * X * X * X * * * X * * * X * X * * * X * * * X * * * X * * * * * X * * * X * X * X * X 
+X * X X X * X * X * X X X * X X X * X * X X X X X * X X X X X * X * X * X X X * X X X X X X X X X X X * X X X X X * X * X 
+X * * * * * X * X * X * * * X * * * X * X * * * X * * * * * X * X * X * X * * * X * * * * * * * * * X * X * * * * * X * X 
+X X X X X X X * X * X * X * X * X X X * X * X * X X X X X * X X X * X * X X X X X * X X X * X X X * X * X * X X X X X * X 
+X * * * X * * * X * X * X * X * * * * * X * X * * * * * X * * * * * X * * * X * X * * * X * X * X * X * X * * * X ? * * X 
+X * X * X * X X X * X * X X X X X X X X X X X X X X X * X * X X X X X X X * X * X * X X X * X * X * X * X * X * X X X X X 
+X * X * X ? * * X * X * * * * * * * * * * * * * X * * * X * * * X * * * * * X * X * X * * * X * * * X * X * X * X * * * X 
+X * X X X * X * X * X X X X X X X X X X X X X * X X X * X * X X X * X * X X X * X * X * X X X X X X X * X * X * X * X * X 
+X * * * X * X * X * * * * * * * * * * * * * X * X * * * X * X * * * X * X * X * * * X * * * X * * * * * X * X * * * X * X 
+X X X * X * X X X * X X X X X X X X X X X X X * X * X X X * X * X X X * X * X X X X X X X * X * X X X X X * X X X X X * X 
+X * * * * * X * * * X * * * * * X * * * * * X * * * X * * * X * X * * * X * X * * * * * X * * * X * * * X * X * * * X * X 
+X * X X X X X * X X X * X * X * X * X X X * X X X X X * X X X * X * X X X * X * X X X X X X X X X * X * X * X * X X X * X 
+X * * * * * X * * * * * X * X * * * X * * * * * * * X * * * X . X * * * * * X * * * * * * * * * * * X * * * X * * * * * X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X
+EndMap
+
+> LEVEL 10
+# Map 1
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X * * * * * * * X * * * X * X * X * X * * * X * * * * * X * * * X * X * * * * * X * X * * * * * X * * * X * * * X * * * * * X * * * * * * * X * X * X * * * * . X 
+X * X X X X X X X * X X X * X * X * X X X * X * X X X X X * X X X * X * X X X X X * X X X * X * X X X * X * X X X * X X X * X X X * X * X * X * X * X X X * X X X 
+X * X * * * * * * * X * * * * * * * X * * * * * X * * * X * X * X * * * X * * * * * * * X * X * X * * * * * X * * * X * * * * * X ? X * X * * * * * X ? X * * * X 
+X * X X X X X * X X X * X X X * X * X X X * X X X * X X X * X * X * X * X * X X X * X X X X X * X X X * X X X * X X X * X * X X X X X X X X X X X * X * X * X X X 
+X * * * X * X * * * * * X * X * X * * ! X * X * X * * * X * X * * * X * X * * * X * * * * * * * X ? X * X * * * * * X * X * * * * * * * * * X * * * * * * * * * X 
+X X X * X * X X X * X * X * X X X * X X X * X * X * X * X * X * X X X * X X X * X X X X X * X X X * X * X * X X X * X X X X X * X X X X X X X X X * X X X * X X X 
+X * * * X * * * * * X * * * * * X * X * * * X * * * X * * * * * X * * * * * * * * * * * X * * * X * * * X * X * * * X * * * X * X * * * * * * * X ? X * * * * * X 
+X X X * X * X * X X X X X X X X X X X * X X X * X X X X X X X X X X X * X * X * X X X X X * X X X * X * X X X * X X X X X * X * X X X * X X X * X * X X X * X X X 
+X * * * * * X * X * X * * * * * * * X * * * X * X * * * * * * * X * X * X * X * X * X * X * X * * * X * * * * * * * * * * * X * * * X * X * X * X * X * * * * * X 
+X X X * X X X * X * X X X X X * X X X * X X X X X * X * X * X * X * X * X X X X X * X * X * X X X X X * X X X X X X X X X * X * X * X X X * X * X * X * X * X * X 
+X * X * * * X * X * * * * * * * X * * * * * * * X * X * X * X * * * * * X * * * * * * * * * * * X * * * X * * * * * X * * * X * X * * * X * * * X * X * X * X * X 
+X * X X X * X X X * X * X * X * X * X X X * X X X X X * X * X X X * X * X X X X X X X * X X X * X * X X X * X X X X X * X X X * X X X * X * X * X * X X X X X * X 
+X * * * * * X * * * X * X * X * X * * * X * * * * * * * X * * * X * X * X * X * * * * * X * X * X * X * * * * * X * * * X * * * X * * * * * X * X * X * * * X * X 
+X X X * X X X X X X X X X * X X X X X * X * X X X * X X X X X * X X X * X * X X X * X X X * X * X * X * X X X * X * X X X X X * X X X X X X X * X X X * X X X * X 
+X * X * * * * * * * X * * * * * * * X * X * * * X * * * * * X * X * * * * * * * X * X * X * * * * * X * X * X * * * * * * * X * * * * * X * * * * * X * * * X * X 
+X * X X X X X * X X X * X X X X X * X X X X X X X X X * X X X X X X X X X * X * X * X * X * X X X X X * X * X * X X X X X X X X X X X X X * X * X * X * X * X * X 
+X * * * * * * * * * * * X * * * X * * * * * * * X * * * X * * * * * * * X * X * X * X * X * * * * * X * * * X * X * X * * * * * * * X * * * X * X * * * X * X * X 
+X X X * X * X * X X X X X X X * X X X * X * X * X * X X X X X * X X X * X * X * X X X * X * X X X X X X X * X X X * X * X X X * X X X X X X X X X X X X X * X * X 
+X * X * X * X * X * * * * * * * * * * * X * X * * * X * * * X * * * X * * * X * * * X * * * * * X * X * * * X * X * * * X * * * * * * * * * * * * * * * X * * * X 
+X * X X X * X * X * X X X X X * X X X X X X X X X X X * X X X X X * X X X X X * X X X * X X X * X * X * X X X * X * X X X * X X X X X * X X X * X * X * X * X X X 
+X * * * * * X * X * X * * * * * * * X * * * * * * * * * * * * * X * X * * * X * * * X * X * * * X * * * * * X * * * * * X * * * * * X * * * X * X * X * * * * * X 
+X X X * X X X X X X X X X * X X X X X * X X X X X * X X X X X * X X X X X * X * X X X X X X X * X * X * X X X * X X X X X X X X X X X * X * X * X * X X X * X X X 
+X * * * * * * * * * X * * * * * * * X * X * * * X * X * * * * * * * * * * * X * * * * * X * * * X * X * X * * * * * X * * * * * * * X * X * X * X * * * X * * * X 
+X X X * X * X * X X X X X X X X X * X X X * X X X * X X X X X X X * X * X X X * X * X X X * X * X X X * X X X X X * X * X * X * X * X X X * X X X X X X X * X X X 
+X * * * X * X * * * X * * * X * * * * * * * * * X * * * X * * * * * X * X * X * X * X * * * X * X * X * * * X * * * * * X * X * X * * * X * * * X * * * * * * * X 
+X * X * X X X * X X X X X * X * X * X X X * X X X * X X X * X X X * X X X * X X X X X * X X X * X * X X X X X X X * X X X * X X X X X * X * X X X X X X X X X X X 
+X * X * * * X * X * * * * * * * X * X * X * X * * * * * X * * * X * X * X * * * * * * * * * X * * * * * * * * * X * * * X * X * * * X * X * X * X * * * X * * * X 
+X X X * X X X X X * X X X X X X X X X * X * X X X X X * X X X * X X X * X X X X X * X X X * X X X * X X X X X X X X X X X X X * X X X * X * X * X X X * X * X * X 
+X * X * * * X * X * * * * * X * X * * * * * * * X * * * * * X * * * * * * * * * * * X * X * * * X * * * X * * * X * * * * * * * X * X * X * * * * * * * * * X * X 
+X * X * X X X * X X X * X X X * X * X X X X X X X X X * X X X * X * X X X * X X X X X * X * X * X * X X X * X * X X X * X X X * X * X * X X X X X * X X X X X * X 
+X * X * * * X * X * X * X * * * X * * * X * * * * * X * X * * * X * X * * * * * X * * * * * X * X * X * X * X * X * X * * * X * X * X * X * * * X * * * X * * * X 
+X * X X X * X * X * X X X X X * X * X * X * X * X X X X X * X X X X X * X X X X X X X X X X X * X X X * X X X * X * X X X * X X X * X * X * X X X X X * X * X X X 
+X * * ? * * * * * * * * X * * * * * X * X * X * * * * * * * * * * * X * * * * * X * * * * * * * * * * * * * X * * * * * * * * * * * * * * * X * * * * * X * * * X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+,
+# Map 2
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X * * * * * * * * * * * * * * * X * * * X * * * * * * * * * * * X * * * * * * * * * X * X * * * * * * * * * * * * * X * * * * * X * * * * * * * * * * * X * * . X 
+X * X * X * X * X X X X X * X * X * X * X * X X X * X X X * X * X * X X X X X * X * X * X * X * X X X X X X X X X * X * X * X X X * X X X X X X X X X * X * X X X 
+X * X * X * X * * * X * * * X * * * X * * * X * * * X * * * X * * * * * X * X * X * * * X * X * * * * ? * * * * X * * * X * * * * * * * * * * * X * * * X * X * X 
+X * X * X * X X X * X X X X X X X X X X X * X * X X X * X X X X X X X * X * X * X X X X X * X * X X X X X X X * X X X X X X X X X X X X X * X * X * X X X * X * X 
+X * X * X * X * X * * * * * * * X * * * * * X * X * * * X * * * * * * * X * * * X * * * * * X * * * * * X * X * * * X * * * X * * * * * * * X * X * * * * * X * X 
+X * X * X * X * X X X X X X X * X * X X X X X * X X X X X X X X X X X X X * X X X * X X X X X * X X X * X * X X X * X X X * X * X * X X X X X * X X X X X X X * X 
+X * X * X * * * * * X * * * X * X * X * * * X * * * X * * * X * * * X * * * * * X * * * * * X * X * * * X * * * X * * * X * * * X * X * * * X * X * X * * * * * X 
+X * X * X X X X X * X X X * X * X X X * X * X X X * X * X * X X X * X * X X X X X * X X X * X * X * X X X * X X X X X * X X X X X * X * X X X * X * X * X * X * X 
+X * X * * * * * X * * * X * X * * * * * X * X * * * * * X * * * X * * * X * * * * * X * X * X * X * * * * * X * * * X * * * * ? X * X * * * X * * * * * X * X * X 
+X X X * X X X * X X X * X * X X X X X X X * X * X X X X X X X * X X X X X * X X X X X * X * X * X X X X X X X * X * X X X X X * X X X * X * X X X X X X X * X * X 
+X * * * X * * * * * X * X * * * X * * * * * X * * ? X * * * X * X * * * X * * * * * X * * * X * * * * * * * * * X * * * * * X * X * * * X * * * X * * * X * X * X 
+X * X X X * X X X * X * X X X * X * X X X X X X X * X * X * X * X * X * X X X X X * X * X X X X X X X X X X X X X X X X X * X * X * X X X * X * X * X X X * X * X 
+X * X * X * * * X * X * * * X * X * * * * * * * X * * * X * X * * * X * * * * * X * X * * * * * * * * * * * X * * * X * * * X * X * * * X * X * * * X * * * X * X 
+X * X * X X X * X * X X X * X * X * X X X * X * X X X X X X X X X X X X X X X * X * X X X * X X X X X X X * X X X * X * X X X X X * X X X * X X X X X * X * X * X 
+X * * * * * X * X * * * X * X * X * X * * * X * * * X * * * * * * * * * X * * * X * * * X * * * X * * * X * * * X * X * X * * * X * X * * * X * X * * * X * X * X 
+X * X X X * X * X X X * X * X * X * X X X * X X X X X * X * X X X X X * X X X X X * X * X X X * X * X * X X X * X * X * X * X * X X X * X * X * X * X X X * X * X 
+X * * * X * X * X * * * X * * * X * X * * * X * * * * * X * * * X * X * X * * * * * X * * * X * * * X * * * X * * * X * * * X * * * * * X * X * * * * * X * X * X 
+X * X X X * X * X * X X X X X X X X X * X X X * X X X X X * X * X * X * X * X * X X X X X * X X X X X * X X X X X X X X X X X X X X X X X * X * X X X * X * X * X 
+X * X * * * X * X * X * * * X * * * * * X * * * X * X * * * X * X * X * X * X * X * * ? X * * * X ? X * * * X * * * X * * * X * X * * * X * X * * * X * X * X * X 
+X * X * X X X * X * X * X * X * X X X X X * X X X * X * X * X * X * X * X * X * X * X X X X X * X * X X X * X * X X X * X * X * X * X * X * X X X * X * X * X * X 
+X * X * X * * * X * * * X * X * * * X * * * X * * * X * X * X * * * X * * * X * X * * * * * X * * * X * X * X * * * * * X * * * X * X * * * X * * * X * X * X * X 
+X * X * X X X X X X X X X X X X X * X * X X X * X * X * X * X X X X X X X X X * X X X * X * X X X * X * X * X X X X X X X X X * X * X X X X X * X X X X X * X * X 
+X * X * * * X * * * * * * * * * X * * * X * * * X * X * X * X * * * * * X * * * * * * * X * X * X * * * X * * * * * X * * * * * X * X * * * X * X * * * * * X * X 
+X * X X X * X * X * X X X X X * X X X X X * X X X X X * X * X X X * X * X * X X X X X X X * X * X X X * X X X X X * X * X X X X X X X * X * X * X * X X X X X * X 
+X * * * X * X * X * * * X * * * X * * * X * * * X * * * X * * * * * X * X * * * * * X * X * * * * * X * * * X * * * X * * * * * X * * * X * * * X * X * * * X * X 
+X * X * X * X * X X X * X * X * X * X * X X X * X * X X X X X X X X X * X X X X X * X * X X X X X * X X X * X * X X X X X * X * X * X X X X X X X X X * X * X * X 
+X * X * X * X * X * * * X * X * * * X * * * X * * * X * * * X * * * * * * * * * X * X * X * * * X * * * X * X * X * * * X * X * X * * * X * * * X * * * X * X * X 
+X X X * X * X X X * X X X X X X X X X X X * X X X X X X X * X X X * X X X X X * X * X * X * X * X * X X X * X * X * X * X * X * X X X * X X X * X * X X X X X * X 
+X * * * X * * * X * * * * * * * X * * * X * * * X * * * X * * * * * X * * * * * X * X * * * X * X * * * X * X * * * X * X * X * X * * * X * * * X * * * * * * * X 
+X * X X X X X * X X X X X X X * X * X * X X X * X * X * X X X X X X X X X X X X X * X X X * X * X X X * X * X X X X X X X * X X X * X X X * X X X X X X X X X X X 
+X * X * * * X * * * * * * * X * X * X * * * * * X ! X * * * * * * * X * * * * * * * X * * * X * X * * * X * * * X * * * X * * * X * X * * * * * * * * * X * * * X 
+X * X X X * X * X X X X X X X * X * X X X X X X X X X X X X X X X * X * X X X X X X X * X X X * X * X X X X X * X * X * X X X * X * X * X X X X X * X * X X X * X 
+X * * * * * X * * * * * * * * * X * * * * * * * * * * * * * * * * * X * * * * * * * * * X * * * X * * * * * X * * * X * * * * * X * * * X * * * * * X * * * * * X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+,
+# Map 3
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X * * * * * * * * * * * * * X * X * * * X * * * X ? * * * * X * * * * * X * * * * * * * * * * * X * * * * * X * * * * * X * * * * * * * * * * * X * X * * * * . X 
+X * X X X X X X X * X X X X X * X * X X X X X * X * X X X X X X X * X * X X X * X X X X X X X * X X X X X * X * X X X X X X X * X X X * X X X * X * X * X * X * X 
+X * * * * * X * * * X * * * * * * * * * X * X * * * * * X * * * X * X * * * * * X * * * X * X * X * * * * * * * * * X * * * * * X * * * X * * * * * * * X * X * X 
+X * X * X X X * X * X X X X X * X X X X X * X * X X X X X X X * X X X * X X X * X X X * X * X * X X X * X * X X X X X * X X X X X X X X X * X X X X X X X * X X X 
+X * X * * * X * X * X * * * * * * * X * X * * * X * * * * * * * * * * * X * * * * * * * * * X * X * * * X * * * X * X * X * X * * * * * * * * * * * X * * * X * X 
+X X X * X * X * X X X * X X X X X X X * X X X * X X X * X X X X X X X * X X X * X * X X X X X X X * X X X X X * X * X X X * X * X X X X X * X * X X X X X X X * X 
+X * * * X * X * * * X * X * * * * * * * * * * * X * * * X * * * X * X * X * X * X * * * * * X * * * * * X * * * X * * * X * * * * * X * X * X * X * X * * * * * X 
+X X X * X X X X X * X * X X X * X X X X X X X X X * X X X * X * X * X X X * X * X X X * X * X X X * X X X * X X X * X X X X X * X * X * X X X * X * X X X * X X X 
+X * * * * ! X * X * X * * * * * X * * * X * X * X * * * X * X * X * X * * * * * X * X * X * * * X * X * * * * * * * * * * * X * X * X * X * X * X * X * * * * * X 
+X X X X X X X * X * X * X X X X X X X * X * X * X X X * X * X X X * X X X * X X X * X X X X X X X X X X X X X * X * X X X * X X X * X * X * X X X * X * X X X * X 
+X * X * * * * * * * * * X * * * * * * * X * * ? * * * * * * * * * * X * * * X * * * * * X * * * * * * * X * * * X * * * X * * * * * X * X * * * X * * * X * X * X 
+X * X X X * X * X * X * X X X * X X X * X X X X X * X X X X X X X X X X X X X X X * X X X * X X X X X X X * X * X X X X X X X * X X X * X X X * X X X * X * X X X 
+X * * * * * X * X * X * X * X * X * * * X * * * X * X * X * X * X * X * X * * * * * * * * * * * * * * * X * X * X * * * X * X * * * X * * * X * * * * * * * X * X 
+X * X X X * X * X * X X X * X * X X X * X * X * X * X * X * X * X * X * X X X * X X X X X X X X X * X X X X X X X * X X X * X X X * X * X X X X X X X * X * X * X 
+X * X * * * X * X * X * * * X * * * X * * * X * * * X * * * * * * * X * X * * * * * * * X * * * X * * * * * X * * * * * X * X * * * * * X * * * * * * * X * X * X 
+X X X * X X X * X * X * X X X * X X X * X X X * X * X * X X X * X * X * X X X * X * X * X * X X X * X * X * X * X X X * X * X X X * X * X X X X X * X X X * X * X 
+X * X * * * X * X * * * * * * * X * * * X * X * X * X * X * * * X * X * * * * * X * X * * * * * X * X * X * * * * * X * X * * ? X * X * X * * * X * X * * * X * X 
+X * X * X * X * X X X * X * X X X * X X X * X X X * X X X X X * X X X X X X X X X X X * X X X X X X X X X * X X X * X X X * X X X X X * X * X * X X X * X X X * X 
+X * X * X * X * * * X * X * X * * * * * * * X * * * X * X * * * X * * * * * * * * * * * * * X * X * X * X * * * X * * * * * * * * * * * * * X * X * X * * * * * X 
+X * X * X X X * X X X X X X X * X X X * X X X * X X X * X * X * X X X X X X X * X X X X X * X * X * X * X X X * X X X X X * X * X * X X X * X * X * X X X * X * X 
+X * X * X * * * X * * * * * X * * * X * X * X * * * * * * * X * X * X * * * X * X * * * * * * * * * * * X * * * * * * * X * X * X * X * * * X * X * X * X * X * X 
+X * X * X * X X X * X X X X X X X X X X X * X X X * X X X X X X X * X * X X X X X X X * X X X X X * X X X X X * X X X X X * X X X * X * X * X X X * X * X X X * X 
+X * * * X * * * * * * * X * * * X * * * * * * * * * * * * * X * * * * * X * * * * * X * X * * * X * X * X * X * * * X * * * X * * * X * X * X * * * * * * * * * X 
+X X X * X * X * X X X X X * X X X X X * X * X * X X X * X * X * X X X X X * X X X * X * X X X * X * X * X * X * X X X X X X X * X X X X X * X X X X X X X X X * X 
+X * * * X * X * X * * * * * * * * * * * X * X * X * * * X * X * X * * * * * * ? X * * * * * X * * * X * X * X * * * * * X * X * X * X * * * X * X * * * X * X * X 
+X X X X X * X X X * X * X * X X X * X X X * X X X X X * X * X * X * X X X * X X X X X X X X X X X X X * X * X X X X X * X * X X X * X * X X X * X X X * X * X * X 
+X * X * X * X * X * X * X * X * X * X * X * * * * * X * X * X * * * X * * * * * X * * * * * * * X * * * * * X * X * * * X * X * * * * * * * * * * * * * * * * * X 
+X * X * X X X * X X X X X X X * X * X * X * X * X X X X X X X X X X X X X X X * X X X * X X X X X * X X X X X * X X X X X * X * X X X X X * X X X X X * X X X X X 
+X * * * X * * * * * * * X * X * X * X * * * X * * * X * X * * * X * * * * * * * * * X * X * * * * * * * X * X * * * * * * * * * X * * * * * X * X * * * * * X * X 
+X * X * X X X * X X X * X * X * X X X * X * X * X * X * X * X * X X X * X * X X X * X * X * X X X * X * X * X * X X X * X X X X X * X X X * X * X * X X X * X * X 
+X * X * * * X * * * X * * * * * * * * * X * X * X * * * * * X * X * * * X * * * X * * * X * X * X * X * X * * * X * * * * * X * X * X * X * * * X * * * X * * * X 
+X * X X X X X X X * X X X * X X X X X X X * X X X X X X X X X * X * X X X * X X X X X X X X X * X * X * X X X * X X X * X * X * X * X * X * X * X * X * X X X * X 
+X * * * * * * * * * * * X * X * * * * * * * * * * * * * X * * * * * * * X * * * * * * * * * * * * * X * X * * * * * X * X * * * X * X * * * X * X * X * * * X * X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+,
+# Map 4
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+X * * * * * X * * * * * X * * * X * * * * * * * * * * * * * X * * * X * * * * * * * * * X * * * X * * * X * * * X * * * * * * * * * X * * * X * * * * * X * * . X 
+X * X * X X X * X * X X X * X * X * X * X X X * X X X X X X X * X * X * X * X X X * X * X * X * X * X * X * X * X X X * X * X X X X X * X * X * X X X * X * X X X 
+X * X * * * * * X * * * * * X * X * X * * * X * X * * * X * * * X * X * X * * * X * X * * * X * * * X * * * X * * * * * X * * * X * * * X * X * * * X * X * * * X 
+X X X * X X X X X * X * X * X * X * X * X * X X X * X * X * X X X * X * X X X * X * X * X X X X X X X X X X X * X X X X X * X * X * X X X * X * X * X X X * X * X 
+X * * * X * * * X * X * X * X * * * X * X * * * * * X * * * * * X * * * * * X * X * X * * * * * X * * * * * X * X * * * * * X * X * * * X * * * X * * * * * X * X 
+X * X X X * X * X * X * X X X X X X X * X X X X X X X X X X X X X X X X X X X * X * X X X X X X X * X X X * X * X X X * X X X * X * X X X X X X X * X X X X X * X 
+X * X * * * X * * * X * * * * * X * X * * * X * * * * * * * * * * * * * * * * * X * * * * * * * * * X * * * X * * * X * X * * * X * * * * * * * X * X * X * * * X 
+X * X * X X X X X X X X X X X * X * X * X * X * X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X * X * X X X X X X X X X X X * X * X * X * X X X 
+X * X * X * * * * * X * * * * * X * X * X * X * * * * * * * * * * * * * * ? X * * * * * * * X * * * X * * * * * * * X * * * * * * * * * X * * * X * X * X * * * X 
+X X X * X * X X X X X * X X X X X * X * X * X X X X X X X * X X X X X X X * X * X X X * X * X * X X X * X X X X X X X X X X X X X X X * X * X * X * X * X X X * X 
+X * * * X * * * * * * * * * X * X * X * X * * * * * X * X * * * X * * * X * * * X * * * X * * * * * X * * * * * * * X * * * * * * * X * * * X * X * * * X * * * X 
+X * X X X X X X X X X X X * X * X * X * X X X * X * X * X * X * X * X * X X X X X * X X X X X X X * X X X X X * X * X X X X X X X * X X X X X * X X X X X * X * X 
+X * X * * * * * * * * * X * X * X ? * * X * * * X * * * X * X * * * X ? * * X * * * X * * * * * * * * * * * X * X * * * * * * * X * X * * * X * X * * * * * X * X 
+X * X X X X X X X * X * X * X * X X X X X * X X X X X X X * X X X X X X X * X X X * X * X X X * X X X X X X X * X X X X X X X * X * X X X * X * X * X X X X X * X 
+X * * * X * * * X * X * X * * * * * * * X * X * * * * * X * * * * * X * * * X * * * X * * * X * X * * * * * X * * * * * * * X * X * * * X * X * X * X * * * * * X 
+X * X * X * X X X * X * X X X X X X X X X * X * X X X * X X X * X * X * X X X * X X X X X * X * X * X X X * X X X X X X X * X * X X X * X * X * X * X X X X X X X 
+X * X * * * * * * * X * * * X * * * X * * * X * X * * * * * X * X * X * * * X * * * * * X * X * X * X * X * * * * * * * X * X * * * * * X * * * X * X * * * * * X 
+X X X X X * X X X X X * X * X * X * X * X X X * X * X X X * X * X X X X X X X * X X X * X * X X X * X * X X X X X X X * X * X X X X X X X X X X X * X * X X X * X 
+X * * * X * * * X * * * X * X * X * * * X * * * X * * * X * X * * * * * X * * * * * X * X * * * X * X * X * * * * * X * X * * * * * * * * * * * X * X * * * X * X 
+X * X * X X X X X * X X X X X * X X X X X * X X X X X * X * X X X * X X X * X X X X X * X X X * X * X * X * X X X * X * X X X X X X X X X X X * X * X X X X X * X 
+X * X * * * * * * * X * * * X * * * * * X * * * * * X * X * * * X * X * * * X * * * X * * * X * X * * * X * * * X * * * * * X * * * * * X * * * X * * * * * X * X 
+X X X X X X X X X X X * X * X X X X X X X X X X X * X * X * X X X * X * X X X X X * X X X * X * X X X X X X X * X X X X X * X * X X X X X * X X X X X X X * X * X 
+X * * * * * X * * * X * X * X * * * * * * * * * X * X * X * * * X * X * * * * * X * X * * * X * * * * * X * * * * * * * X * X * * * * * X * * * X * * * X * * * X 
+X * X * X * X * X X X * X * X * X * X X X X X * X * X * X X X * X * X X X X X * X * X * X X X X X X X * X X X X X X X * X * X X X X X * X * X * X X X * X X X X X 
+X * X * X * X * * * X * X * * * X * * * X * X * * * X * * * X * X * * * * * X * * * X * * * X * * * X * * * * * * * * * X * * * X * * ? X * X * * * X * * * * * X 
+X * X * X X X * X * X * X * X X X X X * X * X X X X X X X * X X X X X X X * X X X X X * X X X * X * X X X X X X X X X X X X X * X * X X X * X X X * X * X X X * X 
+X * X * X * * * X * * * X * X * * * X * * * X * * * X * * * X * * * * * X * * * * * X * * * X * X * * * X * * * * * X * * * * * X * X * * * X * X * X * X * X * X 
+X * X * X * X X X X X X X * X * X * X X X X X * X * X * X X X * X X X * X X X * X X X X X * X X X X X * X X X * X * X * X X X X X * X * X X X * X * X * X * X * X 
+X * X * X * * * * * * * X * X * X * X * * * * * X * * * X * * * * * X * * * X * * * X * * * * * X * * * X * * * X * X * * * X * * * X * * * X * * * X * X * * * X 
+X * X * X * X X X X X * X * X X X * X X X * X X X X X X X X X X X * X X X * X X X * X X X X X * X * X X X * X X X * X X X * X * X X X * X * X * X X X * X * X X X 
+X * X * X * * * * * X * X * * * * * X * * * X * * * * * X * * * * * X * X * * * * * X * * * X * X * * * X * X * * * X * * * X * * * * * X * X * * * X * X * * * X 
+X * X * X X X X X * X * X X X X X X X * X X X * X * X * X * X X X X X * X X X X X X X * X * X * X X X * X * X * X X X * X X X X X X X X X * X * X X X * X X X * X 
+X ! X * * * * * * * X * * * * * * * X * * * * * X * X * * * X * * * * * * * * * * * * * X * * * * * X * * * X * * * * * X * * * * * * * * * X * * * * * X ? * * X 
+X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X 
+EndMap
